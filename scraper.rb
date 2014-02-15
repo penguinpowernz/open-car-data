@@ -115,7 +115,9 @@ class AutoRipper
     while true
       count+= 1
       raise CacheFull if count >= MAX_CACHE
-      index = rand(1..MAX_CACHE)
+      s = @start || 1
+      e = @end || MAX_CACHE
+      index = rand(s..e)
       return index unless cached?(index)
     end
   end

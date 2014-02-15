@@ -12,6 +12,7 @@ CACHE="./tmp/cache"
 class TooManyConsecutiveErrors < StandardError; end
 class EndOfRange < StandardError; end
 class RecordExists < StandardError; end
+class CacheFull < StandardError; end
 
 class String
 
@@ -33,6 +34,9 @@ class String
 end
 
 class AutoRipper
+
+  RANDOM_MODE = true
+  MAX_CACHE = 30098
 
   def initialize(dump_path, range=nil, cache_path=nil)
     @dump_path = dump_path
@@ -59,12 +63,13 @@ class AutoRipper
     last_url = "http://english.auto.vl.ru/catalog/"
 
     while true do
-      index+= 1
+      index = RANDOM_MODE ? get_random_id : index+= 1
 
       begin
         raise EndOfRange if !@end.nil? and index >= @end
         raise TooManyConsecutiveErrors if consecutive_errors >= 3
         raise RecordExists if cached?(index)
+        raise CacheFull if @cache.size >= MAX_CACHE
 
         duration = rand(4..10)
         @log.debug "Sleeping for #{duration} seconds"
@@ -84,6 +89,7 @@ class AutoRipper
 
         car = process_car(html)
         car[:auto_vl_ru_id] = index
+
         @log.info "It's a #{car[:year]} #{car[:manufacturer]} #{car[:model]} #{car[:modification]}"
         write_to_file car
         cache(index)
@@ -102,6 +108,16 @@ class AutoRipper
       end
     end
 
+  end
+
+  def get_random_id
+    count = 0
+    while true
+      count+= 1
+      raise CacheFull if count >= MAX_CACHE
+      index = rand(1..MAX_CACHE)
+      return index unless cached?(index)
+    end
   end
 
   def cache(index)

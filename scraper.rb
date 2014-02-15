@@ -94,7 +94,7 @@ class AutoRipper
         break
       rescue RecordExists
         @log.warn "ID #{index} is already in the cache, skipping..."
-        break
+        next
       end
     end
 
@@ -108,7 +108,7 @@ class AutoRipper
 
   def cached?(index)
     return false if @cache.nil?
-    @cache.include? index
+    @cache.include? index.to_s
   end
 
   def consecutive_errors

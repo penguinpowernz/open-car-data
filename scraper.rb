@@ -65,7 +65,7 @@ class AutoRipper
         raise RecordExists if cached?(index)
         duration = rand(4..10)
         @log.debug "Sleeping for #{duration} seconds"
-        sleep duration # act like a human
+        sleep duration # act like a human/don't hammer server
 
         @log.info "Trying to get ID #{index}"
         

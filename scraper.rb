@@ -146,7 +146,12 @@ class AutoRipper
 
   def process_car(html)
     doc = Nokogiri::HTML(html)
+    validate doc
     do_process_car(doc)
+  end
+
+  def validate(doc)
+    raise OpenURI::HTTPError if doc.css("h3").first.content == "Wrong params" # essentially a 404
   end
 
   def write_to_file(hash)

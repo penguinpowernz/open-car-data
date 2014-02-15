@@ -42,7 +42,9 @@ class AutoRipper
     @cache_path = cache_path
     @cache = File.read(cache_path).split("\n") unless cache_path.nil?
     
-    @log = Logger.new(STDOUT)
+    $stdout.sync = true
+    @log = Logger.new($stdout)
+    @log.level = Logger::DEBUG
     
     unless range.nil?
       @start, @end = *range.gsub(/\.\./, " ").split(" ")

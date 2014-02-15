@@ -7,9 +7,11 @@ require 'logger'
 
 DUMP_PATH = "./cars"
 LOG_FILE = "./scraper.log"
+CACHE="./tmp/cache"
 
 class TooManyConsecutiveErrors < StandardError; end
 class EndOfRange < StandardError; end
+class RecordExists < StandardError; end
 
 class String
 
@@ -32,10 +34,15 @@ end
 
 class AutoRipper
 
-  def initialize(dump_path, log_file, range=nil)
+  def initialize(dump_path, range=nil, cache_path=nil)
     @dump_path = dump_path
     @errors = []
-    @log = Logger.new(log_file)
+
+    raise ArgumentError, "Can't find #{cache_path}" if !cache_path.nil? and !File.exist?(cache_path)
+    @cache_path = cache_path
+    @cache = File.read(cache_path).split("\n") unless cache_path.nil?
+    
+    @log = Logger.new(STDOUT)
     
     unless range.nil?
       @start, @end = *range.gsub(/\.\./, " ").split(" ")
@@ -46,42 +53,59 @@ class AutoRipper
 
   def run
     
-    count = @start || 0
+    index = @start || 0
 
     while true do
-      count+= 1
+      index+= 1
 
       begin
-        raise EndOfRange if !@end.nil? and count >= @end
+        raise EndOfRange if !@end.nil? and index >= @end
         raise TooManyConsecutiveErrors if consecutive_errors >= 3
+        raise RecordExists if cached?(index)
         duration = rand(4..10)
         @log.debug "Sleeping for #{duration} seconds"
         sleep duration # act like a human
 
-        @log.info "Trying to get ID #{count}"
+        @log.info "Trying to get ID #{index}"
         
         html = open( url(count),
           "User-Agent" => "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:26.0) Gecko/20100101 Firefox/26.0"
         )
 
         @log.warn "HTML was nil" and next if html.nil?
-        @log.info "Got HTML for ID #{count}"
+        @log.info "Got HTML for ID #{index}"
+
 
         car = process_car(html)
         @log.info "It's a #{car[:year]} #{car[:manufacturer]} #{car[:model]} #{car[:modification]}"
         write_to_file car
+        cache(index)
       rescue OpenURI::HTTPError => e
         @log.error e.message
-        @errors << count
+        @errors << index
       rescue TooManyConsecutiveErrors
         @log.fatal "Too many consecutive errors"
         break
       rescue EndOfRange
         @log.fatal "End of range met"
         break
+      rescue RecordExists
+        @log.warn "ID #{index} is already in the cache, skipping..."
+        break
       end
     end
 
+  end
+
+  def cache(index)
+    return false if @cache.nil?
+    @cache << index
+    File.open(@cache_path, "a") {|f| f.puts index }
+  end
+
+  def cached?(index)
+    return false if @cache.nil?
+    @cache.include? index
   end
 
   def consecutive_errors
@@ -170,4 +194,4 @@ class AutoRipper
   end
 end
 
-AutoRipper.new(DUMP_PATH, LOG_FILE, ARGV[0]).run
+AutoRipper.new(DUMP_PATH, ARGV[0], CACHE).run

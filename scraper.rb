@@ -125,7 +125,19 @@ class AutoRipper
   end
 
   def url(count)
-    "http://english.auto.vl.ru/catalog/nissan/180sx/1989_3/#{count}/"
+    "http://english.auto.vl.ru/catalog/#{random_manufacturer}/#{random_model}/#{random_date}/#{count}/"
+  end
+
+  def random_manufacturer
+    %w(nissan toyota mitsubish mazda).sample
+  end
+
+  def random_date
+    %w(1983_1 1984_4 1996_2 1994_10 1999_10 1988_4 1991_9).sample
+  end
+
+  def random_model
+    %w(bluebird 323 wagon safari 180 atenza 200 fairlady widetrack hilux corona corolla mr-s).sample
   end
 
   def process_car(html)

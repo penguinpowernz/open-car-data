@@ -1,0 +1,607 @@
+# Logfile created on 2014-02-15 22:52:36 +1300 by logger.rb/44203
+I, [2014-02-15T22:52:43.520263 #4093]  INFO -- : Trying to get ID 1
+I, [2014-02-15T22:52:53.649618 #4093]  INFO -- : Got HTML for ID 1
+I, [2014-02-15T22:52:53.660651 #4093]  INFO -- : Dumping json to ./cars/toyota_mr_s_2002_august_mr_s_b_edition.json
+I, [2014-02-15T22:52:57.661061 #4093]  INFO -- : Trying to get ID 2
+I, [2014-02-15T22:53:09.431707 #4093]  INFO -- : Got HTML for ID 2
+I, [2014-02-15T22:53:09.449239 #4093]  INFO -- : Dumping json to ./cars/toyota_mr_s_2002_august_mr_s.json
+I, [2014-02-15T22:53:15.449660 #4093]  INFO -- : Trying to get ID 3
+I, [2014-02-15T22:53:17.072467 #4093]  INFO -- : Got HTML for ID 3
+I, [2014-02-15T22:53:17.085258 #4093]  INFO -- : Dumping json to ./cars/toyota_mr_s_2002_august_mr_s_s_edition.json
+I, [2014-02-15T22:53:24.085618 #4093]  INFO -- : Trying to get ID 4
+I, [2014-02-15T22:53:26.038325 #4093]  INFO -- : Got HTML for ID 4
+I, [2014-02-15T22:53:26.050707 #4093]  INFO -- : Dumping json to ./cars/toyota_mr_s_2002_august_mr_s.json
+I, [2014-02-15T22:53:30.051177 #4093]  INFO -- : Trying to get ID 5
+I, [2014-02-15T22:53:31.376270 #4093]  INFO -- : Got HTML for ID 5
+I, [2014-02-15T22:53:31.399007 #4093]  INFO -- : Dumping json to ./cars/toyota_mr_s_2002_august_mr_s_s_edition.json
+I, [2014-02-15T22:53:35.399411 #4093]  INFO -- : Trying to get ID 6
+I, [2014-02-15T22:53:37.979113 #4093]  INFO -- : Got HTML for ID 6
+I, [2014-02-15T22:53:37.990644 #4093]  INFO -- : Dumping json to ./cars/toyota_mr_s_2002_august_mr_s_v_edition.json
+I, [2014-02-15T22:53:43.991011 #4093]  INFO -- : Trying to get ID 7
+I, [2014-02-15T22:54:37.782066 #4093]  INFO -- : Got HTML for ID 7
+I, [2014-02-15T22:54:37.805469 #4093]  INFO -- : Dumping json to ./cars/toyota_mr_s_2002_august_mr_s_v_edition.json
+D, [2014-02-15T23:07:02.541694 #4872] DEBUG -- : Sleeping for 5 seconds
+I, [2014-02-15T23:07:07.542016 #4872]  INFO -- : Trying to get ID 1
+I, [2014-02-15T23:07:11.989119 #4872]  INFO -- : Got HTML for ID 1
+I, [2014-02-15T23:07:11.991865 #4872]  INFO -- : It's a Toyota MR-S
+I, [2014-02-15T23:07:12.000030 #4872]  INFO -- : Dumping json to ./cars/toyota_mr_s_2002_august_mr_s_b_edition_ta_zzw30_akfqh_b.json
+D, [2014-02-15T23:07:12.000291 #4872] DEBUG -- : Sleeping for 9 seconds
+I, [2014-02-15T23:07:21.000509 #4872]  INFO -- : Trying to get ID 2
+D, [2014-02-15T23:08:40.258031 #5208] DEBUG -- : Sleeping for 4 seconds
+I, [2014-02-15T23:08:44.258363 #5208]  INFO -- : Trying to get ID 1
+I, [2014-02-15T23:08:46.297911 #5208]  INFO -- : Got HTML for ID 1
+I, [2014-02-15T23:08:46.300890 #5208]  INFO -- : It's a 2002 Toyota MR-S MR-S B edition
+I, [2014-02-15T23:08:46.308914 #5208]  INFO -- : Dumping json to ./cars/toyota_mr_s_2002_august_mr_s_b_edition_ta_zzw30_akfqh_b.json
+D, [2014-02-15T23:08:46.309256 #5208] DEBUG -- : Sleeping for 7 seconds
+I, [2014-02-15T23:08:53.309472 #5208]  INFO -- : Trying to get ID 2
+I, [2014-02-15T23:08:58.547002 #5208]  INFO -- : Got HTML for ID 2
+I, [2014-02-15T23:08:58.552373 #5208]  INFO -- : It's a 2002 Toyota MR-S MR-S
+I, [2014-02-15T23:08:58.558242 #5208]  INFO -- : Dumping json to ./cars/toyota_mr_s_2002_august_mr_s_ta_zzw30_akfqh.json
+D, [2014-02-15T23:08:58.558469 #5208] DEBUG -- : Sleeping for 10 seconds
+I, [2014-02-15T23:09:08.558653 #5208]  INFO -- : Trying to get ID 3
+I, [2014-02-15T23:09:14.868017 #5208]  INFO -- : Got HTML for ID 3
+I, [2014-02-15T23:09:14.873941 #5208]  INFO -- : It's a 2002 Toyota MR-S MR-S S edition
+I, [2014-02-15T23:09:14.887059 #5208]  INFO -- : Dumping json to ./cars/toyota_mr_s_2002_august_mr_s_s_edition_ta_zzw30_akfqh_s.json
+D, [2014-02-15T23:09:14.887279 #5208] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-15T23:09:20.887487 #5208]  INFO -- : Trying to get ID 4
+I, [2014-02-15T23:09:22.868297 #5208]  INFO -- : Got HTML for ID 4
+I, [2014-02-15T23:09:22.873586 #5208]  INFO -- : It's a 2002 Toyota MR-S MR-S
+I, [2014-02-15T23:09:22.887165 #5208]  INFO -- : Dumping json to ./cars/toyota_mr_s_2002_august_mr_s_ta_zzw30_aklqh.json
+D, [2014-02-15T23:09:22.887416 #5208] DEBUG -- : Sleeping for 9 seconds
+I, [2014-02-15T23:09:31.887637 #5208]  INFO -- : Trying to get ID 5
+I, [2014-02-15T23:09:39.060336 #5208]  INFO -- : Got HTML for ID 5
+I, [2014-02-15T23:09:39.066834 #5208]  INFO -- : It's a 2002 Toyota MR-S MR-S S edition
+I, [2014-02-15T23:09:39.084835 #5208]  INFO -- : Dumping json to ./cars/toyota_mr_s_2002_august_mr_s_s_edition_ta_zzw30_aklqh_s.json
+D, [2014-02-15T23:09:39.085118 #5208] DEBUG -- : Sleeping for 8 seconds
+I, [2014-02-15T23:09:47.085890 #5208]  INFO -- : Trying to get ID 6
+I, [2014-02-15T23:09:49.068750 #5208]  INFO -- : Got HTML for ID 6
+I, [2014-02-15T23:09:49.074492 #5208]  INFO -- : It's a 2002 Toyota MR-S MR-S V edition
+I, [2014-02-15T23:09:49.086565 #5208]  INFO -- : Dumping json to ./cars/toyota_mr_s_2002_august_mr_s_v_edition_ta_zzw30_akfqh_v.json
+D, [2014-02-15T23:09:49.086851 #5208] DEBUG -- : Sleeping for 9 seconds
+I, [2014-02-15T23:09:58.087086 #5208]  INFO -- : Trying to get ID 7
+I, [2014-02-15T23:10:01.876549 #5208]  INFO -- : Got HTML for ID 7
+I, [2014-02-15T23:10:01.882093 #5208]  INFO -- : It's a 2002 Toyota MR-S MR-S V edition
+I, [2014-02-15T23:10:01.891978 #5208]  INFO -- : Dumping json to ./cars/toyota_mr_s_2002_august_mr_s_v_edition_ta_zzw30_aklqh_v.json
+D, [2014-02-15T23:10:01.892198 #5208] DEBUG -- : Sleeping for 10 seconds
+I, [2014-02-15T23:10:11.892437 #5208]  INFO -- : Trying to get ID 8
+I, [2014-02-15T23:10:13.867459 #5208]  INFO -- : Got HTML for ID 8
+I, [2014-02-15T23:10:13.873652 #5208]  INFO -- : It's a 2001 Toyota MR-S MR-S B edition
+I, [2014-02-15T23:10:13.883145 #5208]  INFO -- : Dumping json to ./cars/toyota_mr_s_2001_august_mr_s_b_edition_ta_zzw30_akmqh_b.json
+D, [2014-02-15T23:10:13.883378 #5208] DEBUG -- : Sleeping for 8 seconds
+I, [2014-02-15T23:10:21.883604 #5208]  INFO -- : Trying to get ID 9
+I, [2014-02-15T23:10:23.854338 #5208]  INFO -- : Got HTML for ID 9
+I, [2014-02-15T23:10:23.859873 #5208]  INFO -- : It's a 2001 Toyota MR-S MR-S
+I, [2014-02-15T23:10:23.873271 #5208]  INFO -- : Dumping json to ./cars/toyota_mr_s_2001_august_mr_s_ta_zzw30_akmqh.json
+D, [2014-02-15T23:10:23.873526 #5208] DEBUG -- : Sleeping for 8 seconds
+I, [2014-02-15T23:10:31.873712 #5208]  INFO -- : Trying to get ID 10
+I, [2014-02-15T23:10:33.799876 #5208]  INFO -- : Got HTML for ID 10
+I, [2014-02-15T23:10:33.806011 #5208]  INFO -- : It's a 2001 Toyota MR-S MR-S
+I, [2014-02-15T23:10:33.820691 #5208]  INFO -- : Dumping json to ./cars/toyota_mr_s_2001_august_mr_s_ta_zzw30_akgqh.json
+D, [2014-02-15T23:10:33.820962 #5208] DEBUG -- : Sleeping for 5 seconds
+I, [2014-02-15T23:10:38.821132 #5208]  INFO -- : Trying to get ID 11
+I, [2014-02-15T23:10:39.920575 #5208]  INFO -- : Got HTML for ID 11
+I, [2014-02-15T23:10:39.925997 #5208]  INFO -- : It's a 2001 Toyota MR-S MR-S S edition
+I, [2014-02-15T23:10:39.940524 #5208]  INFO -- : Dumping json to ./cars/toyota_mr_s_2001_august_mr_s_s_edition_ta_zzw30_akmqh_s.json
+D, [2014-02-15T23:10:39.940771 #5208] DEBUG -- : Sleeping for 8 seconds
+I, [2014-02-15T23:10:47.940992 #5208]  INFO -- : Trying to get ID 12
+I, [2014-02-15T23:10:51.862024 #5208]  INFO -- : Got HTML for ID 12
+I, [2014-02-15T23:10:51.867694 #5208]  INFO -- : It's a 2001 Toyota MR-S MR-S S edition
+I, [2014-02-15T23:10:51.884168 #5208]  INFO -- : Dumping json to ./cars/toyota_mr_s_2001_august_mr_s_s_edition_ta_zzw30_akgqh_s.json
+D, [2014-02-15T23:10:51.884433 #5208] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-15T23:10:57.884723 #5208]  INFO -- : Trying to get ID 13
+I, [2014-02-15T23:11:02.726845 #5208]  INFO -- : Got HTML for ID 13
+I, [2014-02-15T23:11:02.732661 #5208]  INFO -- : It's a 2000 Toyota MR-S MR-S B edition
+I, [2014-02-15T23:11:02.743344 #5208]  INFO -- : Dumping json to ./cars/toyota_mr_s_2000_august_mr_s_b_edition_ta_zzw30_akmqh_b.json
+D, [2014-02-15T23:11:02.743550 #5208] DEBUG -- : Sleeping for 7 seconds
+I, [2014-02-15T23:11:09.743763 #5208]  INFO -- : Trying to get ID 14
+I, [2014-02-15T23:11:14.149733 #5208]  INFO -- : Got HTML for ID 14
+I, [2014-02-15T23:11:14.155427 #5208]  INFO -- : It's a 2000 Toyota MR-S MR-S
+I, [2014-02-15T23:11:14.167021 #5208]  INFO -- : Dumping json to ./cars/toyota_mr_s_2000_august_mr_s_ta_zzw30_akmqh.json
+D, [2014-02-15T23:11:14.167254 #5208] DEBUG -- : Sleeping for 4 seconds
+I, [2014-02-15T23:11:18.167424 #5208]  INFO -- : Trying to get ID 15
+I, [2014-02-15T23:11:20.196253 #5208]  INFO -- : Got HTML for ID 15
+I, [2014-02-15T23:11:20.202070 #5208]  INFO -- : It's a 2000 Toyota MR-S MR-S
+I, [2014-02-15T23:11:20.214903 #5208]  INFO -- : Dumping json to ./cars/toyota_mr_s_2000_august_mr_s_ta_zzw30_akgqh.json
+D, [2014-02-15T23:11:20.215182 #5208] DEBUG -- : Sleeping for 9 seconds
+I, [2014-02-15T23:11:29.215407 #5208]  INFO -- : Trying to get ID 16
+I, [2014-02-15T23:11:33.786201 #5208]  INFO -- : Got HTML for ID 16
+I, [2014-02-15T23:11:33.791820 #5208]  INFO -- : It's a 2000 Toyota MR-S MR-S S edition
+I, [2014-02-15T23:11:33.806609 #5208]  INFO -- : Dumping json to ./cars/toyota_mr_s_2000_august_mr_s_s_edition_ta_zzw30_akmqh_s.json
+D, [2014-02-15T23:11:33.806907 #5208] DEBUG -- : Sleeping for 4 seconds
+I, [2014-02-15T23:11:37.807135 #5208]  INFO -- : Trying to get ID 17
+I, [2014-02-15T23:11:39.963008 #5208]  INFO -- : Got HTML for ID 17
+I, [2014-02-15T23:11:39.969180 #5208]  INFO -- : It's a 2000 Toyota MR-S MR-S S edition
+I, [2014-02-15T23:11:39.979911 #5208]  INFO -- : Dumping json to ./cars/toyota_mr_s_2000_august_mr_s_s_edition_ta_zzw30_akgqh_s.json
+D, [2014-02-15T23:11:39.980185 #5208] DEBUG -- : Sleeping for 4 seconds
+I, [2014-02-15T23:11:43.980406 #5208]  INFO -- : Trying to get ID 18
+I, [2014-02-15T23:11:46.040020 #5208]  INFO -- : Got HTML for ID 18
+I, [2014-02-15T23:11:46.045814 #5208]  INFO -- : It's a 2000 Toyota MR-S MR-S V edition
+I, [2014-02-15T23:11:46.059627 #5208]  INFO -- : Dumping json to ./cars/toyota_mr_s_2000_august_mr_s_v_edition_ta_zzw30_akmqh_v.json
+D, [2014-02-15T23:11:46.059945 #5208] DEBUG -- : Sleeping for 4 seconds
+I, [2014-02-15T23:11:50.060202 #5208]  INFO -- : Trying to get ID 19
+I, [2014-02-15T23:11:52.093899 #5208]  INFO -- : Got HTML for ID 19
+I, [2014-02-15T23:11:52.100024 #5208]  INFO -- : It's a 2000 Toyota MR-S MR-S V edition
+I, [2014-02-15T23:11:52.111772 #5208]  INFO -- : Dumping json to ./cars/toyota_mr_s_2000_august_mr_s_v_edition_ta_zzw30_akgqh_v.json
+D, [2014-02-15T23:11:52.112060 #5208] DEBUG -- : Sleeping for 4 seconds
+I, [2014-02-15T23:11:56.112270 #5208]  INFO -- : Trying to get ID 20
+I, [2014-02-15T23:11:57.966256 #5208]  INFO -- : Got HTML for ID 20
+I, [2014-02-15T23:11:57.971866 #5208]  INFO -- : It's a 1999 Toyota MR-S MR-S B edition
+I, [2014-02-15T23:11:57.980973 #5208]  INFO -- : Dumping json to ./cars/toyota_mr_s_1999_october_mr_s_b_edition_gh_zzw30_akmqh_b.json
+D, [2014-02-15T23:11:57.981234 #5208] DEBUG -- : Sleeping for 8 seconds
+I, [2014-02-15T23:12:05.981442 #5208]  INFO -- : Trying to get ID 21
+I, [2014-02-15T23:12:07.963768 #5208]  INFO -- : Got HTML for ID 21
+I, [2014-02-15T23:12:07.969455 #5208]  INFO -- : It's a 1999 Toyota MR-S MR-S
+I, [2014-02-15T23:12:07.983311 #5208]  INFO -- : Dumping json to ./cars/toyota_mr_s_1999_october_mr_s_gh_zzw30_akmqh.json
+D, [2014-02-15T23:12:07.983599 #5208] DEBUG -- : Sleeping for 10 seconds
+I, [2014-02-15T23:12:17.983839 #5208]  INFO -- : Trying to get ID 22
+I, [2014-02-15T23:12:21.419939 #5208]  INFO -- : Got HTML for ID 22
+I, [2014-02-15T23:12:21.425138 #5208]  INFO -- : It's a 1999 Toyota MR-S MR-S S edition
+I, [2014-02-15T23:12:21.431366 #5208]  INFO -- : Dumping json to ./cars/toyota_mr_s_1999_october_mr_s_s_edition_gh_zzw30_akmqh_s.json
+D, [2014-02-15T23:12:21.431629 #5208] DEBUG -- : Sleeping for 5 seconds
+I, [2014-02-15T23:12:26.431844 #5208]  INFO -- : Trying to get ID 23
+I, [2014-02-15T23:12:28.469205 #5208]  INFO -- : Got HTML for ID 23
+I, [2014-02-15T23:12:28.474767 #5208]  INFO -- : It's a 1997 Toyota MR2 G
+I, [2014-02-15T23:12:28.484291 #5208]  INFO -- : Dumping json to ./cars/toyota_mr2_1997_december_g_e_sw20_acmqf.json
+D, [2014-02-15T23:12:28.484528 #5208] DEBUG -- : Sleeping for 10 seconds
+I, [2014-02-15T23:12:38.484717 #5208]  INFO -- : Trying to get ID 24
+I, [2014-02-15T23:12:40.424903 #5208]  INFO -- : Got HTML for ID 24
+I, [2014-02-15T23:12:40.430966 #5208]  INFO -- : It's a 1997 Toyota MR2 G
+I, [2014-02-15T23:12:40.445078 #5208]  INFO -- : Dumping json to ./cars/toyota_mr2_1997_december_g_e_sw20_acpqf.json
+D, [2014-02-15T23:12:40.445315 #5208] DEBUG -- : Sleeping for 10 seconds
+I, [2014-02-15T23:12:50.445523 #5208]  INFO -- : Trying to get ID 25
+I, [2014-02-15T23:12:52.372282 #5208]  INFO -- : Got HTML for ID 25
+I, [2014-02-15T23:12:52.378059 #5208]  INFO -- : It's a 1997 Toyota MR2 G T-bar roof specification car
+I, [2014-02-15T23:12:52.388288 #5208]  INFO -- : Dumping json to ./cars/toyota_mr2_1997_december_g_t_bar_roof_specification_car_e_sw20_ajmqf.json
+D, [2014-02-15T23:12:52.388520 #5208] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-15T23:12:58.388727 #5208]  INFO -- : Trying to get ID 26
+I, [2014-02-15T23:13:00.098129 #5208]  INFO -- : Got HTML for ID 26
+I, [2014-02-15T23:13:00.104156 #5208]  INFO -- : It's a 1997 Toyota MR2 G limited
+I, [2014-02-15T23:13:00.116797 #5208]  INFO -- : Dumping json to ./cars/toyota_mr2_1997_december_g_limited_e_sw20_acmqf_l.json
+D, [2014-02-15T23:13:00.117070 #5208] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-15T23:13:06.117263 #5208]  INFO -- : Trying to get ID 27
+I, [2014-02-15T23:13:08.279123 #5208]  INFO -- : Got HTML for ID 27
+I, [2014-02-15T23:13:08.284736 #5208]  INFO -- : It's a 1997 Toyota MR2 G T-bar roof specification car
+I, [2014-02-15T23:13:08.291525 #5208]  INFO -- : Dumping json to ./cars/toyota_mr2_1997_december_g_t_bar_roof_specification_car_e_sw20_ajpqf.json
+D, [2014-02-15T23:13:08.291724 #5208] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-15T23:13:14.291944 #5208]  INFO -- : Trying to get ID 28
+I, [2014-02-15T23:13:15.958123 #5208]  INFO -- : Got HTML for ID 28
+I, [2014-02-15T23:13:15.963973 #5208]  INFO -- : It's a 1997 Toyota MR2 G limited
+I, [2014-02-15T23:13:15.977223 #5208]  INFO -- : Dumping json to ./cars/toyota_mr2_1997_december_g_limited_e_sw20_acpqf_l.json
+D, [2014-02-15T23:13:15.977549 #5208] DEBUG -- : Sleeping for 10 seconds
+D, [2014-02-15T23:43:46.977578 #12335] DEBUG -- : Sleeping for 9 seconds
+I, [2014-02-15T23:43:55.977904 #12335]  INFO -- : Trying to get ID 21207
+I, [2014-02-15T23:43:59.493895 #12335]  INFO -- : Got HTML for ID 21207
+I, [2014-02-15T23:43:59.504906 #12335]  INFO -- : It's a 1999 Nissan Safari 2 door hardtop super spirit
+I, [2014-02-15T23:43:59.505248 #12335]  INFO -- : Dumping json to ./cars/nissan_safari_1999_september_2_door_hardtop_super_spirit_kh_wty61.json
+D, [2014-02-15T23:43:59.505479 #12335] DEBUG -- : Sleeping for 7 seconds
+I, [2014-02-15T23:44:06.505669 #12335]  INFO -- : Trying to get ID 21208
+I, [2014-02-15T23:44:08.462746 #12335]  INFO -- : Got HTML for ID 21208
+I, [2014-02-15T23:44:08.478522 #12335]  INFO -- : It's a 1999 Nissan Safari 2 door hardtop super spirit
+I, [2014-02-15T23:44:08.478829 #12335]  INFO -- : Dumping json to ./cars/nissan_safari_1999_september_2_door_hardtop_super_spirit_kh_wty61.json
+D, [2014-02-15T23:44:08.479153 #12335] DEBUG -- : Sleeping for 4 seconds
+I, [2014-02-15T23:44:12.479391 #12335]  INFO -- : Trying to get ID 21209
+I, [2014-02-15T23:44:14.363007 #12335]  INFO -- : Got HTML for ID 21209
+I, [2014-02-15T23:44:14.373965 #12335]  INFO -- : It's a 1999 Nissan Safari 4 door van Gran road
+I, [2014-02-15T23:44:14.374253 #12335]  INFO -- : Dumping json to ./cars/nissan_safari_1999_september_4_door_van_gran_road_kg_vrgy61.json
+D, [2014-02-15T23:44:14.374451 #12335] DEBUG -- : Sleeping for 7 seconds
+D, [2014-02-15T23:44:31.185422 #12508] DEBUG -- : Sleeping for 10 seconds
+I, [2014-02-15T23:44:41.185752 #12508]  INFO -- : Trying to get ID 21207
+I, [2014-02-15T23:44:43.222575 #12508]  INFO -- : Got HTML for ID 21207
+I, [2014-02-15T23:44:43.233275 #12508]  INFO -- : It's a 1999 Nissan Safari 2 door hardtop super spirit
+I, [2014-02-15T23:44:43.233616 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1999_september_2_door_hardtop_super_spirit_kh_wty61.json
+D, [2014-02-15T23:44:43.233887 #12508] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-15T23:44:49.234105 #12508]  INFO -- : Trying to get ID 21208
+I, [2014-02-15T23:44:50.978373 #12508]  INFO -- : Got HTML for ID 21208
+I, [2014-02-15T23:44:50.992958 #12508]  INFO -- : It's a 1999 Nissan Safari 2 door hardtop super spirit
+I, [2014-02-15T23:44:50.993258 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1999_september_2_door_hardtop_super_spirit_kh_wty61.json
+D, [2014-02-15T23:44:50.993637 #12508] DEBUG -- : Sleeping for 8 seconds
+I, [2014-02-15T23:44:58.993851 #12508]  INFO -- : Trying to get ID 21209
+I, [2014-02-15T23:45:02.887594 #12508]  INFO -- : Got HTML for ID 21209
+I, [2014-02-15T23:45:02.905356 #12508]  INFO -- : It's a 1999 Nissan Safari 4 door van Gran road
+I, [2014-02-15T23:45:02.905882 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1999_september_4_door_van_gran_road_kg_vrgy61.json
+D, [2014-02-15T23:45:02.906379 #12508] DEBUG -- : Sleeping for 4 seconds
+I, [2014-02-15T23:45:06.906635 #12508]  INFO -- : Trying to get ID 21210
+I, [2014-02-15T23:45:08.230200 #12508]  INFO -- : Got HTML for ID 21210
+I, [2014-02-15T23:45:08.241991 #12508]  INFO -- : It's a 1999 Nissan Safari 4 door van Gran road
+I, [2014-02-15T23:45:08.242304 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1999_september_4_door_van_gran_road_kg_vrgy61.json
+D, [2014-02-15T23:45:08.242717 #12508] DEBUG -- : Sleeping for 10 seconds
+I, [2014-02-15T23:45:18.242935 #12508]  INFO -- : Trying to get ID 21211
+I, [2014-02-15T23:45:21.641766 #12508]  INFO -- : Got HTML for ID 21211
+I, [2014-02-15T23:45:21.659790 #12508]  INFO -- : It's a 1999 Nissan Safari 4 door wagon Gran road
+I, [2014-02-15T23:45:21.660039 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1999_september_4_door_wagon_gran_road_gf_wgy61.json
+D, [2014-02-15T23:45:21.660178 #12508] DEBUG -- : Sleeping for 8 seconds
+I, [2014-02-15T23:45:29.660392 #12508]  INFO -- : Trying to get ID 21212
+I, [2014-02-15T23:45:42.436267 #12508]  INFO -- : Got HTML for ID 21212
+I, [2014-02-15T23:45:42.451384 #12508]  INFO -- : It's a 1999 Nissan Safari 4 door van Gran road limited
+I, [2014-02-15T23:45:42.451989 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1999_september_4_door_van_gran_road_limited_kg_vrgy61.json
+D, [2014-02-15T23:45:42.452132 #12508] DEBUG -- : Sleeping for 5 seconds
+I, [2014-02-15T23:45:47.452346 #12508]  INFO -- : Trying to get ID 21213
+I, [2014-02-15T23:45:48.567619 #12508]  INFO -- : Got HTML for ID 21213
+I, [2014-02-15T23:45:48.583209 #12508]  INFO -- : It's a 1999 Nissan Safari 4 door van Gran road limited
+I, [2014-02-15T23:45:48.583529 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1999_september_4_door_van_gran_road_limited_kg_vrgy61.json
+D, [2014-02-15T23:45:48.583752 #12508] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-15T23:45:54.583966 #12508]  INFO -- : Trying to get ID 21214
+I, [2014-02-15T23:45:55.782744 #12508]  INFO -- : Got HTML for ID 21214
+I, [2014-02-15T23:45:55.798228 #12508]  INFO -- : It's a 1999 Nissan Safari 4door wagon Gran road limited
+I, [2014-02-15T23:45:55.798575 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1999_september_4door_wagon_gran_road_limited_gf_wgy61.json
+D, [2014-02-15T23:45:55.798728 #12508] DEBUG -- : Sleeping for 7 seconds
+I, [2014-02-15T23:46:02.798938 #12508]  INFO -- : Trying to get ID 21215
+I, [2014-02-15T23:46:08.224345 #12508]  INFO -- : Got HTML for ID 21215
+I, [2014-02-15T23:46:08.239654 #12508]  INFO -- : It's a 1997 Nissan Safari Spirit type I
+I, [2014-02-15T23:46:08.239993 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1997_october_spirit_type_i_kd_wyy61.json
+D, [2014-02-15T23:46:08.240157 #12508] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-15T23:46:14.240364 #12508]  INFO -- : Trying to get ID 21216
+I, [2014-02-15T23:46:22.807618 #12508]  INFO -- : Got HTML for ID 21216
+I, [2014-02-15T23:46:22.826173 #12508]  INFO -- : It's a 1997 Nissan Safari Spirit type I
+I, [2014-02-15T23:46:22.826702 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1997_october_spirit_type_i_kd_wyy61.json
+D, [2014-02-15T23:46:22.827030 #12508] DEBUG -- : Sleeping for 5 seconds
+I, [2014-02-15T23:46:27.827284 #12508]  INFO -- : Trying to get ID 21217
+I, [2014-02-15T23:46:29.022508 #12508]  INFO -- : Got HTML for ID 21217
+I, [2014-02-15T23:46:29.036249 #12508]  INFO -- : It's a 1997 Nissan Safari Spirit type II
+I, [2014-02-15T23:46:29.036646 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1997_october_spirit_type_ii_kd_wyy61.json
+D, [2014-02-15T23:46:29.036806 #12508] DEBUG -- : Sleeping for 10 seconds
+I, [2014-02-15T23:46:39.037071 #12508]  INFO -- : Trying to get ID 21218
+I, [2014-02-15T23:46:41.715053 #12508]  INFO -- : Got HTML for ID 21218
+I, [2014-02-15T23:46:41.734928 #12508]  INFO -- : It's a 1997 Nissan Safari Spirit type II
+I, [2014-02-15T23:46:41.735238 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1997_october_spirit_type_ii_kd_wyy61.json
+D, [2014-02-15T23:46:41.735455 #12508] DEBUG -- : Sleeping for 9 seconds
+I, [2014-02-15T23:46:50.735669 #12508]  INFO -- : Trying to get ID 21219
+I, [2014-02-15T23:46:54.604799 #12508]  INFO -- : Got HTML for ID 21219
+I, [2014-02-15T23:46:54.619911 #12508]  INFO -- : It's a 1997 Nissan Safari RX
+I, [2014-02-15T23:46:54.620280 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1997_october_rx_kd_wrgy61.json
+D, [2014-02-15T23:46:54.620509 #12508] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-15T23:47:00.620729 #12508]  INFO -- : Trying to get ID 21220
+I, [2014-02-15T23:47:01.801356 #12508]  INFO -- : Got HTML for ID 21220
+I, [2014-02-15T23:47:01.818194 #12508]  INFO -- : It's a 1997 Nissan Safari RX
+I, [2014-02-15T23:47:01.818543 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1997_october_rx_e_wgy61.json
+D, [2014-02-15T23:47:01.818696 #12508] DEBUG -- : Sleeping for 8 seconds
+I, [2014-02-15T23:47:09.818910 #12508]  INFO -- : Trying to get ID 21221
+I, [2014-02-15T23:47:13.392909 #12508]  INFO -- : Got HTML for ID 21221
+I, [2014-02-15T23:47:13.410782 #12508]  INFO -- : It's a 1997 Nissan Safari RX
+I, [2014-02-15T23:47:13.411112 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1997_october_rx_kd_wrgy61.json
+D, [2014-02-15T23:47:13.411325 #12508] DEBUG -- : Sleeping for 9 seconds
+I, [2014-02-15T23:47:22.411586 #12508]  INFO -- : Trying to get ID 21222
+I, [2014-02-15T23:47:23.500457 #12508]  INFO -- : Got HTML for ID 21222
+I, [2014-02-15T23:47:23.515723 #12508]  INFO -- : It's a 1997 Nissan Safari Gran road
+I, [2014-02-15T23:47:23.516038 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1997_october_gran_road_kd_wrgy61.json
+D, [2014-02-15T23:47:23.516203 #12508] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-15T23:47:29.516502 #12508]  INFO -- : Trying to get ID 21223
+I, [2014-02-15T23:47:30.439933 #12508]  INFO -- : Got HTML for ID 21223
+I, [2014-02-15T23:47:30.449066 #12508]  INFO -- : It's a 1997 Nissan Safari Gran road
+I, [2014-02-15T23:47:30.449704 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1997_october_gran_road_e_wgy61.json
+D, [2014-02-15T23:47:30.449995 #12508] DEBUG -- : Sleeping for 10 seconds
+I, [2014-02-15T23:47:40.450259 #12508]  INFO -- : Trying to get ID 21224
+I, [2014-02-15T23:47:41.605791 #12508]  INFO -- : Got HTML for ID 21224
+I, [2014-02-15T23:47:41.622458 #12508]  INFO -- : It's a 1997 Nissan Safari Gran road
+I, [2014-02-15T23:47:41.622863 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1997_october_gran_road_kd_wrgy61.json
+D, [2014-02-15T23:47:41.623127 #12508] DEBUG -- : Sleeping for 4 seconds
+I, [2014-02-15T23:47:45.623343 #12508]  INFO -- : Trying to get ID 21225
+I, [2014-02-15T23:47:46.752860 #12508]  INFO -- : Got HTML for ID 21225
+I, [2014-02-15T23:47:46.770431 #12508]  INFO -- : It's a 1997 Nissan Safari Gran road limited
+I, [2014-02-15T23:47:46.770784 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1997_october_gran_road_limited_kd_wrgy61.json
+D, [2014-02-15T23:47:46.770965 #12508] DEBUG -- : Sleeping for 10 seconds
+I, [2014-02-15T23:47:56.771177 #12508]  INFO -- : Trying to get ID 21226
+I, [2014-02-15T23:47:58.662796 #12508]  INFO -- : Got HTML for ID 21226
+I, [2014-02-15T23:47:58.679289 #12508]  INFO -- : It's a 1997 Nissan Safari Gran road limited
+I, [2014-02-15T23:47:58.679641 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1997_october_gran_road_limited_e_wgy61.json
+D, [2014-02-15T23:47:58.679818 #12508] DEBUG -- : Sleeping for 10 seconds
+I, [2014-02-15T23:48:08.679984 #12508]  INFO -- : Trying to get ID 21227
+I, [2014-02-15T23:48:09.843895 #12508]  INFO -- : Got HTML for ID 21227
+I, [2014-02-15T23:48:09.859762 #12508]  INFO -- : It's a 1997 Nissan Safari Gran road limited
+I, [2014-02-15T23:48:09.860089 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1997_october_gran_road_limited_kd_wrgy61.json
+D, [2014-02-15T23:48:09.860325 #12508] DEBUG -- : Sleeping for 8 seconds
+I, [2014-02-15T23:48:17.860561 #12508]  INFO -- : Trying to get ID 21228
+I, [2014-02-15T23:48:18.823076 #12508]  INFO -- : Got HTML for ID 21228
+I, [2014-02-15T23:48:18.836612 #12508]  INFO -- : It's a 1995 Nissan Safari Van extra standard roof 4 door DX
+I, [2014-02-15T23:48:18.837012 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1995_august_van_extra_standard_roof_4_door_dx_kc_vrgy60.json
+D, [2014-02-15T23:48:18.837272 #12508] DEBUG -- : Sleeping for 5 seconds
+I, [2014-02-15T23:48:23.837489 #12508]  INFO -- : Trying to get ID 21229
+I, [2014-02-15T23:48:25.064635 #12508]  INFO -- : Got HTML for ID 21229
+I, [2014-02-15T23:48:25.080685 #12508]  INFO -- : It's a 1995 Nissan Safari Wagon spirit hardtop 2 door type I
+I, [2014-02-15T23:48:25.081047 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1995_august_wagon_spirit_hardtop_2_door_type_i_kd_wyy60.json
+D, [2014-02-15T23:48:25.081247 #12508] DEBUG -- : Sleeping for 8 seconds
+I, [2014-02-15T23:48:33.081432 #12508]  INFO -- : Trying to get ID 21230
+I, [2014-02-15T23:48:34.044385 #12508]  INFO -- : Got HTML for ID 21230
+I, [2014-02-15T23:48:34.061910 #12508]  INFO -- : It's a 1995 Nissan Safari Wagon spirit hardtop 2 door type I
+I, [2014-02-15T23:48:34.062276 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1995_august_wagon_spirit_hardtop_2_door_type_i_kd_wyy60.json
+D, [2014-02-15T23:48:34.062609 #12508] DEBUG -- : Sleeping for 4 seconds
+I, [2014-02-15T23:48:38.062885 #12508]  INFO -- : Trying to get ID 21231
+I, [2014-02-15T23:48:39.471380 #12508]  INFO -- : Got HTML for ID 21231
+I, [2014-02-15T23:48:39.487336 #12508]  INFO -- : It's a 1995 Nissan Safari Wagon spirit hardtop 2 door type II
+I, [2014-02-15T23:48:39.487679 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1995_august_wagon_spirit_hardtop_2_door_type_ii_kd_wyy60.json
+D, [2014-02-15T23:48:39.487871 #12508] DEBUG -- : Sleeping for 4 seconds
+I, [2014-02-15T23:48:43.488079 #12508]  INFO -- : Trying to get ID 21232
+I, [2014-02-15T23:48:44.578389 #12508]  INFO -- : Got HTML for ID 21232
+I, [2014-02-15T23:48:44.598593 #12508]  INFO -- : It's a 1995 Nissan Safari Van extra high roof 4 door AD
+I, [2014-02-15T23:48:44.598923 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1995_august_van_extra_high_roof_4_door_ad_kc_vrgy60.json
+D, [2014-02-15T23:48:44.599068 #12508] DEBUG -- : Sleeping for 8 seconds
+I, [2014-02-15T23:48:52.599279 #12508]  INFO -- : Trying to get ID 21233
+I, [2014-02-15T23:48:56.690542 #12508]  INFO -- : Got HTML for ID 21233
+I, [2014-02-15T23:48:56.707100 #12508]  INFO -- : It's a 1995 Nissan Safari Wagon spirit hardtop 2 door type II
+I, [2014-02-15T23:48:56.707484 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1995_august_wagon_spirit_hardtop_2_door_type_ii_kd_wyy60.json
+D, [2014-02-15T23:48:56.707732 #12508] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-15T23:49:02.708003 #12508]  INFO -- : Trying to get ID 21234
+I, [2014-02-15T23:49:03.896318 #12508]  INFO -- : Got HTML for ID 21234
+I, [2014-02-15T23:49:03.915843 #12508]  INFO -- : It's a 1995 Nissan Safari Van extra high roof 4 door AD
+I, [2014-02-15T23:49:03.916578 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1995_august_van_extra_high_roof_4_door_ad_kc_vrgy60.json
+D, [2014-02-15T23:49:03.916876 #12508] DEBUG -- : Sleeping for 9 seconds
+I, [2014-02-15T23:49:12.917120 #12508]  INFO -- : Trying to get ID 21235
+I, [2014-02-15T23:49:16.269572 #12508]  INFO -- : Got HTML for ID 21235
+I, [2014-02-15T23:49:16.288154 #12508]  INFO -- : It's a 1995 Nissan Safari Van extra high roof 4 door Gran road
+I, [2014-02-15T23:49:16.288651 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1995_august_van_extra_high_roof_4_door_gran_road_kc_vrgy60.json
+D, [2014-02-15T23:49:16.288825 #12508] DEBUG -- : Sleeping for 8 seconds
+I, [2014-02-15T23:49:24.289040 #12508]  INFO -- : Trying to get ID 21236
+I, [2014-02-15T23:49:25.484087 #12508]  INFO -- : Got HTML for ID 21236
+I, [2014-02-15T23:49:25.504587 #12508]  INFO -- : It's a 1995 Nissan Safari Wagon extra standard roof 4 door AD
+I, [2014-02-15T23:49:25.504951 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1995_august_wagon_extra_standard_roof_4_door_ad_kd_wrgy60.json
+D, [2014-02-15T23:49:25.505119 #12508] DEBUG -- : Sleeping for 10 seconds
+I, [2014-02-15T23:49:35.505332 #12508]  INFO -- : Trying to get ID 21237
+I, [2014-02-15T23:49:42.773632 #12508]  INFO -- : Got HTML for ID 21237
+I, [2014-02-15T23:49:42.793140 #12508]  INFO -- : It's a 1995 Nissan Safari Wagon extra high roof 4 door AD
+I, [2014-02-15T23:49:42.793573 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1995_august_wagon_extra_high_roof_4_door_ad_kd_wrgy60.json
+D, [2014-02-15T23:49:42.794024 #12508] DEBUG -- : Sleeping for 7 seconds
+I, [2014-02-15T23:49:49.794208 #12508]  INFO -- : Trying to get ID 21238
+I, [2014-02-15T23:49:50.959562 #12508]  INFO -- : Got HTML for ID 21238
+I, [2014-02-15T23:49:50.980880 #12508]  INFO -- : It's a 1995 Nissan Safari Wagon hardtop 2 door Gran road
+I, [2014-02-15T23:49:50.981345 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1995_august_wagon_hardtop_2_door_gran_road_kd_wry60.json
+D, [2014-02-15T23:49:50.981511 #12508] DEBUG -- : Sleeping for 9 seconds
+I, [2014-02-15T23:49:59.981696 #12508]  INFO -- : Trying to get ID 21239
+I, [2014-02-15T23:50:02.631886 #12508]  INFO -- : Got HTML for ID 21239
+I, [2014-02-15T23:50:02.647698 #12508]  INFO -- : It's a 1995 Nissan Safari Van extra high roof 4 door Gran road
+I, [2014-02-15T23:50:02.652600 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1995_august_van_extra_high_roof_4_door_gran_road_kc_vrgy60.json
+D, [2014-02-15T23:50:02.652964 #12508] DEBUG -- : Sleeping for 8 seconds
+I, [2014-02-15T23:50:10.653171 #12508]  INFO -- : Trying to get ID 21240
+I, [2014-02-15T23:50:12.661377 #12508]  INFO -- : Got HTML for ID 21240
+I, [2014-02-15T23:50:12.678563 #12508]  INFO -- : It's a 1995 Nissan Safari Wagon hardtop 2 door Gran road
+I, [2014-02-15T23:50:12.678923 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1995_august_wagon_hardtop_2_door_gran_road_kd_wry60.json
+D, [2014-02-15T23:50:12.679157 #12508] DEBUG -- : Sleeping for 9 seconds
+I, [2014-02-15T23:50:21.679374 #12508]  INFO -- : Trying to get ID 21241
+I, [2014-02-15T23:50:23.470456 #12508]  INFO -- : Got HTML for ID 21241
+I, [2014-02-15T23:50:23.482886 #12508]  INFO -- : It's a 1995 Nissan Safari Wagon extra standard roof 4 door Gran road
+I, [2014-02-15T23:50:23.483245 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1995_august_wagon_extra_standard_roof_4_door_gran_road_kd_wrgy60.json
+D, [2014-02-15T23:50:23.483414 #12508] DEBUG -- : Sleeping for 7 seconds
+I, [2014-02-15T23:50:30.483623 #12508]  INFO -- : Trying to get ID 21242
+I, [2014-02-15T23:50:31.693196 #12508]  INFO -- : Got HTML for ID 21242
+I, [2014-02-15T23:50:31.702704 #12508]  INFO -- : It's a 1995 Nissan Safari Wagon extra high roof 4 door Gran road
+I, [2014-02-15T23:50:31.703068 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1995_august_wagon_extra_high_roof_4_door_gran_road_kd_wrgy60.json
+D, [2014-02-15T23:50:31.703241 #12508] DEBUG -- : Sleeping for 4 seconds
+I, [2014-02-15T23:50:35.703467 #12508]  INFO -- : Trying to get ID 21243
+I, [2014-02-15T23:50:36.920395 #12508]  INFO -- : Got HTML for ID 21243
+I, [2014-02-15T23:50:36.941121 #12508]  INFO -- : It's a 1995 Nissan Safari Wagon extra high roof 4 door Gran road
+I, [2014-02-15T23:50:36.941511 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1995_august_wagon_extra_high_roof_4_door_gran_road_e_wgy60.json
+D, [2014-02-15T23:50:36.941682 #12508] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-15T23:50:42.941852 #12508]  INFO -- : Trying to get ID 21244
+I, [2014-02-15T23:50:44.975921 #12508]  INFO -- : Got HTML for ID 21244
+I, [2014-02-15T23:50:44.994705 #12508]  INFO -- : It's a 1995 Nissan Safari GSagon extra high roof 4 door kingsroad
+I, [2014-02-15T23:50:44.995059 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1995_august_gsagon_extra_high_roof_4_door_kingsroad_e_wgy60.json
+D, [2014-02-15T23:50:44.995275 #12508] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-15T23:50:50.995560 #12508]  INFO -- : Trying to get ID 21245
+I, [2014-02-15T23:50:51.939305 #12508]  INFO -- : Got HTML for ID 21245
+I, [2014-02-15T23:50:51.955867 #12508]  INFO -- : It's a 1995 Nissan Safari GSagon extra standard roof 4 door kingsroad
+I, [2014-02-15T23:50:51.956209 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1995_august_gsagon_extra_standard_roof_4_door_kingsroad_kd_wrgy60.json
+D, [2014-02-15T23:50:51.956358 #12508] DEBUG -- : Sleeping for 8 seconds
+I, [2014-02-15T23:50:59.956513 #12508]  INFO -- : Trying to get ID 21246
+I, [2014-02-15T23:51:01.170799 #12508]  INFO -- : Got HTML for ID 21246
+I, [2014-02-15T23:51:01.184744 #12508]  INFO -- : It's a 1995 Nissan Safari GSagon extra high roof 4 door kingsroad
+I, [2014-02-15T23:51:01.185165 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1995_august_gsagon_extra_high_roof_4_door_kingsroad_kd_wrgy60.json
+D, [2014-02-15T23:51:01.185433 #12508] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-15T23:51:07.185645 #12508]  INFO -- : Trying to get ID 21247
+I, [2014-02-15T23:51:08.356388 #12508]  INFO -- : Got HTML for ID 21247
+I, [2014-02-15T23:51:08.372959 #12508]  INFO -- : It's a 1994 Nissan Safari Van extra standard roof 4 door DX
+I, [2014-02-15T23:51:08.373374 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1994_october_van_extra_standard_roof_4_door_dx_u_vrgy60.json
+D, [2014-02-15T23:51:08.373557 #12508] DEBUG -- : Sleeping for 5 seconds
+I, [2014-02-15T23:51:13.373724 #12508]  INFO -- : Trying to get ID 21248
+I, [2014-02-15T23:51:14.498525 #12508]  INFO -- : Got HTML for ID 21248
+I, [2014-02-15T23:51:14.515372 #12508]  INFO -- : It's a 1994 Nissan Safari Wagon hardtop 2 door spirit type I
+I, [2014-02-15T23:51:14.515753 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1994_october_wagon_hardtop_2_door_spirit_type_i_kd_wyy60.json
+D, [2014-02-15T23:51:14.515908 #12508] DEBUG -- : Sleeping for 7 seconds
+I, [2014-02-15T23:51:21.516116 #12508]  INFO -- : Trying to get ID 21249
+I, [2014-02-15T23:51:29.839426 #12508]  INFO -- : Got HTML for ID 21249
+I, [2014-02-15T23:51:29.859478 #12508]  INFO -- : It's a 1994 Nissan Safari Wagon hardtop 2 door spirit type I
+I, [2014-02-15T23:51:29.860118 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1994_october_wagon_hardtop_2_door_spirit_type_i_kd_wyy60.json
+D, [2014-02-15T23:51:29.860545 #12508] DEBUG -- : Sleeping for 7 seconds
+I, [2014-02-15T23:51:36.860782 #12508]  INFO -- : Trying to get ID 21250
+I, [2014-02-15T23:51:37.974510 #12508]  INFO -- : Got HTML for ID 21250
+I, [2014-02-15T23:51:37.986810 #12508]  INFO -- : It's a 1994 Nissan Safari Van extra high roof 4 door AD
+I, [2014-02-15T23:51:37.987240 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1994_october_van_extra_high_roof_4_door_ad_u_vrgy60.json
+D, [2014-02-15T23:51:37.987482 #12508] DEBUG -- : Sleeping for 8 seconds
+I, [2014-02-15T23:51:45.987668 #12508]  INFO -- : Trying to get ID 21251
+I, [2014-02-15T23:51:50.582942 #12508]  INFO -- : Got HTML for ID 21251
+I, [2014-02-15T23:51:50.599836 #12508]  INFO -- : It's a 1994 Nissan Safari Wagon hardtop 2 door spirit type II
+I, [2014-02-15T23:51:50.600229 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1994_october_wagon_hardtop_2_door_spirit_type_ii_kd_wyy60.json
+D, [2014-02-15T23:51:50.600452 #12508] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-15T23:51:56.600676 #12508]  INFO -- : Trying to get ID 21252
+I, [2014-02-15T23:51:58.037184 #12508]  INFO -- : Got HTML for ID 21252
+I, [2014-02-15T23:51:58.052546 #12508]  INFO -- : It's a 1994 Nissan Safari Van extra high roof 4 door AD
+I, [2014-02-15T23:51:58.052913 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1994_october_van_extra_high_roof_4_door_ad_u_vrgy60.json
+D, [2014-02-15T23:51:58.053168 #12508] DEBUG -- : Sleeping for 8 seconds
+I, [2014-02-15T23:52:06.053499 #12508]  INFO -- : Trying to get ID 21253
+I, [2014-02-15T23:52:09.980536 #12508]  INFO -- : Got HTML for ID 21253
+I, [2014-02-15T23:52:09.999056 #12508]  INFO -- : It's a 1994 Nissan Safari Wagon hardtop 2 door spirit type II
+I, [2014-02-15T23:52:09.999685 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1994_october_wagon_hardtop_2_door_spirit_type_ii_kd_wyy60.json
+D, [2014-02-15T23:52:10.000079 #12508] DEBUG -- : Sleeping for 7 seconds
+I, [2014-02-15T23:52:17.000323 #12508]  INFO -- : Trying to get ID 21254
+I, [2014-02-15T23:52:20.911901 #12508]  INFO -- : Got HTML for ID 21254
+I, [2014-02-15T23:52:20.932409 #12508]  INFO -- : It's a 1994 Nissan Safari Wagon extra standard roof 4 door AD
+I, [2014-02-15T23:52:20.932902 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1994_october_wagon_extra_standard_roof_4_door_ad_y_wrgy60.json
+D, [2014-02-15T23:52:20.933091 #12508] DEBUG -- : Sleeping for 4 seconds
+I, [2014-02-15T23:52:24.933280 #12508]  INFO -- : Trying to get ID 21255
+I, [2014-02-15T23:52:26.889485 #12508]  INFO -- : Got HTML for ID 21255
+I, [2014-02-15T23:52:26.908799 #12508]  INFO -- : It's a 1994 Nissan Safari Wagon extra high roof 4 door AD
+I, [2014-02-15T23:52:26.909181 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1994_october_wagon_extra_high_roof_4_door_ad_y_wrgy60.json
+D, [2014-02-15T23:52:26.909447 #12508] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-15T23:52:32.909664 #12508]  INFO -- : Trying to get ID 21256
+I, [2014-02-15T23:52:34.855658 #12508]  INFO -- : Got HTML for ID 21256
+I, [2014-02-15T23:52:34.875567 #12508]  INFO -- : It's a 1994 Nissan Safari Van extra high roof 4 door Gran road
+I, [2014-02-15T23:52:34.876237 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1994_october_van_extra_high_roof_4_door_gran_road_u_vrgy60.json
+D, [2014-02-15T23:52:34.876573 #12508] DEBUG -- : Sleeping for 8 seconds
+I, [2014-02-15T23:52:42.876866 #12508]  INFO -- : Trying to get ID 21257
+I, [2014-02-15T23:52:46.393182 #12508]  INFO -- : Got HTML for ID 21257
+I, [2014-02-15T23:52:46.414212 #12508]  INFO -- : It's a 1994 Nissan Safari Wagon hardtop 2 door Gran road
+I, [2014-02-15T23:52:46.414612 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1994_october_wagon_hardtop_2_door_gran_road_y_wry60.json
+D, [2014-02-15T23:52:46.414883 #12508] DEBUG -- : Sleeping for 9 seconds
+I, [2014-02-15T23:52:55.415099 #12508]  INFO -- : Trying to get ID 21258
+I, [2014-02-15T23:52:59.664701 #12508]  INFO -- : Got HTML for ID 21258
+I, [2014-02-15T23:52:59.682537 #12508]  INFO -- : It's a 1994 Nissan Safari Van extra high roof 4 door Gran road
+I, [2014-02-15T23:52:59.682869 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1994_october_van_extra_high_roof_4_door_gran_road_u_vrgy60.json
+D, [2014-02-15T23:52:59.683124 #12508] DEBUG -- : Sleeping for 10 seconds
+I, [2014-02-15T23:53:09.683361 #12508]  INFO -- : Trying to get ID 21259
+I, [2014-02-15T23:53:11.624670 #12508]  INFO -- : Got HTML for ID 21259
+I, [2014-02-15T23:53:11.644466 #12508]  INFO -- : It's a 1994 Nissan Safari Wagon hardtop 2 door Gran road
+I, [2014-02-15T23:53:11.644871 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1994_october_wagon_hardtop_2_door_gran_road_y_wry60.json
+D, [2014-02-15T23:53:11.645129 #12508] DEBUG -- : Sleeping for 5 seconds
+I, [2014-02-15T23:53:16.645420 #12508]  INFO -- : Trying to get ID 21260
+I, [2014-02-15T23:53:18.600253 #12508]  INFO -- : Got HTML for ID 21260
+I, [2014-02-15T23:53:18.619879 #12508]  INFO -- : It's a 1994 Nissan Safari Wagon extra standard roof 4 door Gran road
+I, [2014-02-15T23:53:18.620277 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1994_october_wagon_extra_standard_roof_4_door_gran_road_y_wrgy60.json
+D, [2014-02-15T23:53:18.620448 #12508] DEBUG -- : Sleeping for 8 seconds
+I, [2014-02-15T23:53:26.620659 #12508]  INFO -- : Trying to get ID 21261
+I, [2014-02-15T23:53:31.128886 #12508]  INFO -- : Got HTML for ID 21261
+I, [2014-02-15T23:53:31.140391 #12508]  INFO -- : It's a 1994 Nissan Safari Wagon extra high roof 4 door Gran road
+I, [2014-02-15T23:53:31.140923 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1994_october_wagon_extra_high_roof_4_door_gran_road_y_wrgy60.json
+D, [2014-02-15T23:53:31.141130 #12508] DEBUG -- : Sleeping for 4 seconds
+I, [2014-02-15T23:53:35.141305 #12508]  INFO -- : Trying to get ID 21262
+I, [2014-02-15T23:53:37.075966 #12508]  INFO -- : Got HTML for ID 21262
+I, [2014-02-15T23:53:37.096369 #12508]  INFO -- : It's a 1994 Nissan Safari Wagon extra high roof 4 door Gran road
+I, [2014-02-15T23:53:37.096877 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1994_october_wagon_extra_high_roof_4_door_gran_road_e_wgy60.json
+D, [2014-02-15T23:53:37.097041 #12508] DEBUG -- : Sleeping for 8 seconds
+I, [2014-02-15T23:53:45.097233 #12508]  INFO -- : Trying to get ID 21263
+I, [2014-02-15T23:53:51.331616 #12508]  INFO -- : Got HTML for ID 21263
+I, [2014-02-15T23:53:51.351623 #12508]  INFO -- : It's a 1994 Nissan Safari GSagon extra high roof 4 door kingsroad
+I, [2014-02-15T23:53:51.352203 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1994_october_gsagon_extra_high_roof_4_door_kingsroad_e_wgy60.json
+D, [2014-02-15T23:53:51.352510 #12508] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-15T23:53:57.352714 #12508]  INFO -- : Trying to get ID 21264
+I, [2014-02-15T23:53:59.007174 #12508]  INFO -- : Got HTML for ID 21264
+I, [2014-02-15T23:53:59.024177 #12508]  INFO -- : It's a 1994 Nissan Safari GSagon extra standard roof 4 door kingsroad
+I, [2014-02-15T23:53:59.024608 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1994_october_gsagon_extra_standard_roof_4_door_kingsroad_y_wrgy60.json
+D, [2014-02-15T23:53:59.024804 #12508] DEBUG -- : Sleeping for 7 seconds
+I, [2014-02-15T23:54:06.025039 #12508]  INFO -- : Trying to get ID 21265
+I, [2014-02-15T23:54:07.907442 #12508]  INFO -- : Got HTML for ID 21265
+I, [2014-02-15T23:54:07.920095 #12508]  INFO -- : It's a 1994 Nissan Safari GSagon extra high roof 4 door kingsroad
+I, [2014-02-15T23:54:07.920809 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1994_october_gsagon_extra_high_roof_4_door_kingsroad_y_wrgy60.json
+D, [2014-02-15T23:54:07.921059 #12508] DEBUG -- : Sleeping for 5 seconds
+I, [2014-02-15T23:54:12.921274 #12508]  INFO -- : Trying to get ID 21266
+I, [2014-02-15T23:54:14.816295 #12508]  INFO -- : Got HTML for ID 21266
+I, [2014-02-15T23:54:14.826319 #12508]  INFO -- : It's a 1993 Nissan Safari Van extra standard roof DX
+I, [2014-02-15T23:54:14.826769 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1993_august_van_extra_standard_roof_dx_u_vrgy60.json
+D, [2014-02-15T23:54:14.827018 #12508] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-15T23:54:20.827248 #12508]  INFO -- : Trying to get ID 21267
+I, [2014-02-15T23:54:22.711727 #12508]  INFO -- : Got HTML for ID 21267
+I, [2014-02-15T23:54:22.730655 #12508]  INFO -- : It's a 1993 Nissan Safari Van extra high roof 4 door AD
+I, [2014-02-15T23:54:22.731262 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1993_august_van_extra_high_roof_4_door_ad_u_vrgy60.json
+D, [2014-02-15T23:54:22.731556 #12508] DEBUG -- : Sleeping for 8 seconds
+I, [2014-02-15T23:54:30.731803 #12508]  INFO -- : Trying to get ID 21268
+I, [2014-02-15T23:54:35.280640 #12508]  INFO -- : Got HTML for ID 21268
+I, [2014-02-15T23:54:35.301629 #12508]  INFO -- : It's a 1993 Nissan Safari Wagon hardtop 2 door AD
+I, [2014-02-15T23:54:35.301973 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1993_august_wagon_hardtop_2_door_ad_y_wry60.json
+D, [2014-02-15T23:54:35.302146 #12508] DEBUG -- : Sleeping for 10 seconds
+I, [2014-02-15T23:54:45.302374 #12508]  INFO -- : Trying to get ID 21269
+I, [2014-02-15T23:54:46.629113 #12508]  INFO -- : Got HTML for ID 21269
+I, [2014-02-15T23:54:46.648805 #12508]  INFO -- : It's a 1993 Nissan Safari Van extra high roof 4 door AD
+I, [2014-02-15T23:54:46.649204 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1993_august_van_extra_high_roof_4_door_ad_u_vrgy60.json
+D, [2014-02-15T23:54:46.649520 #12508] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-15T23:54:52.649740 #12508]  INFO -- : Trying to get ID 21270
+I, [2014-02-15T23:54:54.259428 #12508]  INFO -- : Got HTML for ID 21270
+I, [2014-02-15T23:54:54.279622 #12508]  INFO -- : It's a 1993 Nissan Safari Wagon hardtop 2 door AD
+I, [2014-02-15T23:54:54.280230 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1993_august_wagon_hardtop_2_door_ad_y_wry60.json
+D, [2014-02-15T23:54:54.280780 #12508] DEBUG -- : Sleeping for 9 seconds
+I, [2014-02-15T23:55:03.280992 #12508]  INFO -- : Trying to get ID 21271
+I, [2014-02-15T23:55:04.547641 #12508]  INFO -- : Got HTML for ID 21271
+I, [2014-02-15T23:55:04.567089 #12508]  INFO -- : It's a 1993 Nissan Safari Wagon extra standard roof AD
+I, [2014-02-15T23:55:04.567492 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1993_august_wagon_extra_standard_roof_ad_y_wrgy60.json
+D, [2014-02-15T23:55:04.567646 #12508] DEBUG -- : Sleeping for 9 seconds
+I, [2014-02-15T23:55:13.567854 #12508]  INFO -- : Trying to get ID 21272
+I, [2014-02-15T23:55:15.113532 #12508]  INFO -- : Got HTML for ID 21272
+I, [2014-02-15T23:55:15.133745 #12508]  INFO -- : It's a 1993 Nissan Safari Wagon extra high roof 4 door AD
+I, [2014-02-15T23:55:15.134417 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1993_august_wagon_extra_high_roof_4_door_ad_y_wrgy60.json
+D, [2014-02-15T23:55:15.134667 #12508] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-15T23:55:21.134927 #12508]  INFO -- : Trying to get ID 21273
+I, [2014-02-15T23:55:23.037287 #12508]  INFO -- : Got HTML for ID 21273
+I, [2014-02-15T23:55:23.056769 #12508]  INFO -- : It's a 1993 Nissan Safari Van extra high roof 4 door Gran road
+I, [2014-02-15T23:55:23.057208 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1993_august_van_extra_high_roof_4_door_gran_road_u_vrgy60.json
+D, [2014-02-15T23:55:23.057384 #12508] DEBUG -- : Sleeping for 7 seconds
+I, [2014-02-15T23:55:30.057595 #12508]  INFO -- : Trying to get ID 21274
+I, [2014-02-15T23:55:31.952405 #12508]  INFO -- : Got HTML for ID 21274
+I, [2014-02-15T23:55:31.972612 #12508]  INFO -- : It's a 1993 Nissan Safari Wagon hardtop 2 door Gran road
+I, [2014-02-15T23:55:31.973076 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1993_august_wagon_hardtop_2_door_gran_road_y_wry60.json
+D, [2014-02-15T23:55:31.973367 #12508] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-15T23:55:37.973581 #12508]  INFO -- : Trying to get ID 21275
+I, [2014-02-15T23:55:39.267147 #12508]  INFO -- : Got HTML for ID 21275
+I, [2014-02-15T23:55:39.287660 #12508]  INFO -- : It's a 1993 Nissan Safari Van extra high roof 4 door Gran road
+I, [2014-02-15T23:55:39.288057 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1993_august_van_extra_high_roof_4_door_gran_road_u_vrgy60.json
+D, [2014-02-15T23:55:39.288437 #12508] DEBUG -- : Sleeping for 9 seconds
+I, [2014-02-15T23:55:48.288637 #12508]  INFO -- : Trying to get ID 21276
+I, [2014-02-15T23:55:50.155717 #12508]  INFO -- : Got HTML for ID 21276
+I, [2014-02-15T23:55:50.175959 #12508]  INFO -- : It's a 1993 Nissan Safari Wagon hardtop 2 door Gran road
+I, [2014-02-15T23:55:50.176598 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1993_august_wagon_hardtop_2_door_gran_road_y_wry60.json
+D, [2014-02-15T23:55:50.176855 #12508] DEBUG -- : Sleeping for 7 seconds
+I, [2014-02-15T23:55:57.177032 #12508]  INFO -- : Trying to get ID 21277
+I, [2014-02-15T23:55:59.042892 #12508]  INFO -- : Got HTML for ID 21277
+I, [2014-02-15T23:55:59.059681 #12508]  INFO -- : It's a 1993 Nissan Safari Wagon extra standard roof 4 door Gran road
+I, [2014-02-15T23:55:59.060136 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1993_august_wagon_extra_standard_roof_4_door_gran_road_y_wrgy60.json
+D, [2014-02-15T23:55:59.060291 #12508] DEBUG -- : Sleeping for 5 seconds
+I, [2014-02-15T23:56:04.060499 #12508]  INFO -- : Trying to get ID 21278
+I, [2014-02-15T23:56:06.115603 #12508]  INFO -- : Got HTML for ID 21278
+I, [2014-02-15T23:56:06.135512 #12508]  INFO -- : It's a 1993 Nissan Safari Wagon extra high roof 4 door Gran road
+I, [2014-02-15T23:56:06.136124 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1993_august_wagon_extra_high_roof_4_door_gran_road_y_wrgy60.json
+D, [2014-02-15T23:56:06.136341 #12508] DEBUG -- : Sleeping for 10 seconds
+I, [2014-02-15T23:56:16.136587 #12508]  INFO -- : Trying to get ID 21279
+I, [2014-02-15T23:56:19.430542 #12508]  INFO -- : Got HTML for ID 21279
+I, [2014-02-15T23:56:19.447891 #12508]  INFO -- : It's a 1993 Nissan Safari Wagon extra high roof 4 door Gran road
+I, [2014-02-15T23:56:19.448253 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1993_august_wagon_extra_high_roof_4_door_gran_road_e_wgy60.json
+D, [2014-02-15T23:56:19.448411 #12508] DEBUG -- : Sleeping for 7 seconds
+I, [2014-02-15T23:56:26.448639 #12508]  INFO -- : Trying to get ID 21280
+I, [2014-02-15T23:56:36.054297 #12508]  INFO -- : Got HTML for ID 21280
+I, [2014-02-15T23:56:36.074092 #12508]  INFO -- : It's a 1993 Nissan Safari GSagon hardtop 2 door kingsroad
+I, [2014-02-15T23:56:36.074725 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1993_august_gsagon_hardtop_2_door_kingsroad_y_wry60.json
+D, [2014-02-15T23:56:36.074981 #12508] DEBUG -- : Sleeping for 10 seconds
+I, [2014-02-15T23:56:46.075246 #12508]  INFO -- : Trying to get ID 21281
+I, [2014-02-15T23:56:54.118812 #12508]  INFO -- : Got HTML for ID 21281
+I, [2014-02-15T23:56:54.133305 #12508]  INFO -- : It's a 1993 Nissan Safari GSagon hardtop 2 door kingsroad
+I, [2014-02-15T23:56:54.133835 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1993_august_gsagon_hardtop_2_door_kingsroad_y_wry60.json
+D, [2014-02-15T23:56:54.134129 #12508] DEBUG -- : Sleeping for 4 seconds
+I, [2014-02-15T23:56:58.134393 #12508]  INFO -- : Trying to get ID 21282
+I, [2014-02-15T23:57:00.041098 #12508]  INFO -- : Got HTML for ID 21282
+I, [2014-02-15T23:57:00.057116 #12508]  INFO -- : It's a 1993 Nissan Safari GSagon extra high roof 4 door kingsroad
+I, [2014-02-15T23:57:00.057519 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1993_august_gsagon_extra_high_roof_4_door_kingsroad_e_wgy60.json
+D, [2014-02-15T23:57:00.057706 #12508] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-15T23:57:06.057915 #12508]  INFO -- : Trying to get ID 21283
+I, [2014-02-15T23:57:08.001444 #12508]  INFO -- : Got HTML for ID 21283
+I, [2014-02-15T23:57:08.020886 #12508]  INFO -- : It's a 1993 Nissan Safari GSagon extra standard roof 4 door kingsroad
+I, [2014-02-15T23:57:08.021291 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1993_august_gsagon_extra_standard_roof_4_door_kingsroad_y_wrgy60.json
+D, [2014-02-15T23:57:08.021445 #12508] DEBUG -- : Sleeping for 9 seconds
+I, [2014-02-15T23:57:17.021653 #12508]  INFO -- : Trying to get ID 21284
+I, [2014-02-15T23:57:21.308535 #12508]  INFO -- : Got HTML for ID 21284
+I, [2014-02-15T23:57:21.328734 #12508]  INFO -- : It's a 1993 Nissan Safari GSagon extra high roof 4 door kingsroad
+I, [2014-02-15T23:57:21.329139 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1993_august_gsagon_extra_high_roof_4_door_kingsroad_y_wrgy60.json
+D, [2014-02-15T23:57:21.329396 #12508] DEBUG -- : Sleeping for 10 seconds
+I, [2014-02-15T23:57:31.329576 #12508]  INFO -- : Trying to get ID 21285
+I, [2014-02-15T23:57:35.002315 #12508]  INFO -- : Got HTML for ID 21285
+I, [2014-02-15T23:57:35.021145 #12508]  INFO -- : It's a 1993 Nissan Safari Van extra high roof 4 door Gran road SV
+I, [2014-02-15T23:57:35.021505 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1993_january_van_extra_high_roof_4_door_gran_road_sv_u_vrgy60.json
+D, [2014-02-15T23:57:35.021699 #12508] DEBUG -- : Sleeping for 8 seconds
+I, [2014-02-15T23:57:43.021927 #12508]  INFO -- : Trying to get ID 21286
+I, [2014-02-15T23:57:47.645309 #12508]  INFO -- : Got HTML for ID 21286
+I, [2014-02-15T23:57:47.664762 #12508]  INFO -- : It's a 1993 Nissan Safari Wagon extra high roof 4 door Gran road SV
+I, [2014-02-15T23:57:47.665318 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1993_january_wagon_extra_high_roof_4_door_gran_road_sv_q_wrgy60.json
+D, [2014-02-15T23:57:47.665600 #12508] DEBUG -- : Sleeping for 8 seconds
+I, [2014-02-15T23:57:55.665787 #12508]  INFO -- : Trying to get ID 21287
+I, [2014-02-15T23:57:58.700218 #12508]  INFO -- : Got HTML for ID 21287
+I, [2014-02-15T23:57:58.721186 #12508]  INFO -- : It's a 1991 Nissan Safari Wagon extra high roof 4 door Gran road
+I, [2014-02-15T23:57:58.721756 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1991_october_wagon_extra_high_roof_4_door_gran_road_cgy60jfe.json
+D, [2014-02-15T23:57:58.722000 #12508] DEBUG -- : Sleeping for 7 seconds
+I, [2014-02-15T23:58:05.722207 #12508]  INFO -- : Trying to get ID 21288
+I, [2014-02-15T23:58:09.923113 #12508]  INFO -- : Got HTML for ID 21288
+I, [2014-02-15T23:58:09.935638 #12508]  INFO -- : It's a 1991 Nissan Safari Wagon extra standard roof 4 door Gran road
+I, [2014-02-15T23:58:09.935986 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1991_october_wagon_extra_standard_roof_4_door_gran_road_wgy60jke.json
+D, [2014-02-15T23:58:09.936247 #12508] DEBUG -- : Sleeping for 9 seconds
+I, [2014-02-15T23:58:18.936482 #12508]  INFO -- : Trying to get ID 21289
+I, [2014-02-15T23:58:23.486909 #12508]  INFO -- : Got HTML for ID 21289
+I, [2014-02-15T23:58:23.506503 #12508]  INFO -- : It's a 1991 Nissan Safari GSagon hardtop 2 door kingsroad
+I, [2014-02-15T23:58:23.506905 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1991_october_gsagon_hardtop_2_door_kingsroad_mry60pf.json
+D, [2014-02-15T23:58:23.507088 #12508] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-15T23:58:29.507334 #12508]  INFO -- : Trying to get ID 21290
+I, [2014-02-15T23:58:31.453687 #12508]  INFO -- : Got HTML for ID 21290
+I, [2014-02-15T23:58:31.471130 #12508]  INFO -- : It's a 1991 Nissan Safari Wagon extra high roof 4 door Gran road
+I, [2014-02-15T23:58:31.471498 #12508]  INFO -- : Dumping json to ./cars/nissan_safari_1991_october_wagon_extra_high_roof_4_door_gran_road_cgy60jke.json
+D, [2014-02-15T23:58:31.471652 #12508] DEBUG -- : Sleeping for 10 seconds

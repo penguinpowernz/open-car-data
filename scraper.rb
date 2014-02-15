@@ -197,7 +197,7 @@ class AutoRipper
     hash[:produced_from].gsub!(/\(|\)/, "")
 
     hash[:year], hash[:month] = *hash[:produced_from].split(" ")
-    hash[:month].capitalize!
+    hash[:month].capitalize! unless hash[:month].nil?
 
     doc.css("table.text:nth-child(2) tr").each do |tr|
       next if tr.children.size != 2

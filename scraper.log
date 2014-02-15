@@ -954,3 +954,153 @@ I, [2014-02-16T02:14:53.668254 #25593]  INFO -- : Got HTML for ID 11796
 I, [2014-02-16T02:14:53.685580 #25593]  INFO -- : It's a 1999 Honda Integra Style S
 I, [2014-02-16T02:14:53.685977 #25593]  INFO -- : Dumping json to ./cars/honda_integra_1999_july_style_s_gf_db6.json
 D, [2014-02-16T02:14:53.686315 #25593] DEBUG -- : Sleeping for 8 seconds
+I, [2014-02-16T02:15:01.686505 #25593]  INFO -- : Trying to get ID 28577
+I, [2014-02-16T02:15:02.824043 #25593]  INFO -- : Got HTML for ID 28577
+I, [2014-02-16T02:15:02.841097 #25593]  INFO -- : It's a 1993 Subaru Legacy Wagon TX
+I, [2014-02-16T02:15:02.841500 #25593]  INFO -- : Dumping json to ./cars/subaru_legacy_wagon_1993_october_tx_e_bg5.json
+D, [2014-02-16T02:15:02.841806 #25593] DEBUG -- : Sleeping for 9 seconds
+I, [2014-02-16T02:15:11.842011 #25593]  INFO -- : Trying to get ID 25253
+I, [2014-02-16T02:15:12.880329 #25593]  INFO -- : Got HTML for ID 25253
+I, [2014-02-16T02:15:12.896766 #25593]  INFO -- : It's a 1996 Nissan Largo Grand star
+I, [2014-02-16T02:15:12.897350 #25593]  INFO -- : Dumping json to ./cars/nissan_largo_1996_october_grand_star_e_nw30.json
+D, [2014-02-16T02:15:12.897812 #25593] DEBUG -- : Sleeping for 10 seconds
+I, [2014-02-16T02:15:22.898061 #25593]  INFO -- : Trying to get ID 14425
+I, [2014-02-16T02:15:24.107763 #25593]  INFO -- : Got HTML for ID 14425
+I, [2014-02-16T02:15:24.127973 #25593]  INFO -- : It's a 1997 Mazda Capella Wagon SV
+I, [2014-02-16T02:15:24.128381 #25593]  INFO -- : Dumping json to ./cars/mazda_capella_wagon_1997_november_sv_gf_gw8w_c1b.json
+D, [2014-02-16T02:15:24.128724 #25593] DEBUG -- : Sleeping for 7 seconds
+I, [2014-02-16T02:15:31.128944 #25593]  INFO -- : Trying to get ID 24875
+I, [2014-02-16T02:15:32.273713 #25593]  INFO -- : Got HTML for ID 24875
+I, [2014-02-16T02:15:32.289458 #25593]  INFO -- : It's a 2001 Nissan March Collet-f
+I, [2014-02-16T02:15:32.289893 #25593]  INFO -- : Dumping json to ./cars/nissan_march_2001_april_collet_f_ta_k11.json
+D, [2014-02-16T02:15:32.290218 #25593] DEBUG -- : Sleeping for 10 seconds
+I, [2014-02-16T02:15:42.290440 #25593]  INFO -- : Trying to get ID 6473
+I, [2014-02-16T02:15:43.433432 #25593]  INFO -- : Got HTML for ID 6473
+I, [2014-02-16T02:15:43.449821 #25593]  INFO -- : It's a 1993 Toyota Town Ace Royal Lounge * limited skylight roof 4WD
+I, [2014-02-16T02:15:43.450350 #25593]  INFO -- : Dumping json to ./cars/toyota_town_ace_1993_august_royal_lounge_limited_skylight_roof_4wd_e_yr30g_pzze_p.json
+D, [2014-02-16T02:15:43.450781 #25593] DEBUG -- : Sleeping for 5 seconds
+I, [2014-02-16T02:15:48.451002 #25593]  INFO -- : Trying to get ID 28943
+I, [2014-02-16T02:15:49.578006 #25593]  INFO -- : Got HTML for ID 28943
+I, [2014-02-16T02:15:49.602820 #25593]  INFO -- : It's a 1996 Subaru Bistro Bistro
+I, [2014-02-16T02:15:49.603090 #25593]  INFO -- : Dumping json to ./cars/subaru_bistro_1996_november_bistro_e_kk3.json
+D, [2014-02-16T02:15:49.603536 #25593] DEBUG -- : Sleeping for 10 seconds
+I, [2014-02-16T02:15:59.603748 #25593]  INFO -- : Trying to get ID 14170
+I, [2014-02-16T02:16:01.695095 #25593]  INFO -- : Got HTML for ID 14170
+I, [2014-02-16T02:16:01.712335 #25593]  INFO -- : It's a 1992 Mazda Autozam Carol Turbo F
+I, [2014-02-16T02:16:01.712757 #25593]  INFO -- : Dumping json to ./cars/mazda_autozam_carol_1992_august_turbo_f_e_aa6pa.json
+D, [2014-02-16T02:16:01.713104 #25593] DEBUG -- : Sleeping for 4 seconds
+I, [2014-02-16T02:16:05.713358 #25593]  INFO -- : Trying to get ID 19724
+I, [2014-02-16T02:16:09.432141 #25593]  INFO -- : Got HTML for ID 19724
+I, [2014-02-16T02:16:09.451965 #25593]  INFO -- : It's a 1991 Nissan AD Wagon LE
+I, [2014-02-16T02:16:09.452357 #25593]  INFO -- : Dumping json to ./cars/nissan_ad_wagon_1991_november_le_x_wsy10.json
+D, [2014-02-16T02:16:09.452718 #25593] DEBUG -- : Sleeping for 5 seconds
+I, [2014-02-16T02:16:14.452939 #25593]  INFO -- : Trying to get ID 22033
+I, [2014-02-16T02:16:15.787029 #25593]  INFO -- : Got HTML for ID 22033
+I, [2014-02-16T02:16:15.802341 #25593]  INFO -- : It's a 1994 Nissan Cedric V30E classic SV
+I, [2014-02-16T02:16:15.802718 #25593]  INFO -- : Dumping json to ./cars/nissan_cedric_1994_august_v30e_classic_sv_e_py31.json
+D, [2014-02-16T02:16:15.803083 #25593] DEBUG -- : Sleeping for 4 seconds
+I, [2014-02-16T02:16:19.803292 #25593]  INFO -- : Trying to get ID 14078
+I, [2014-02-16T02:16:20.984208 #25593]  INFO -- : Got HTML for ID 14078
+I, [2014-02-16T02:16:20.999914 #25593]  INFO -- : It's a 1993 Mazda Autozam AZ-3 GT-A
+I, [2014-02-16T02:16:21.000355 #25593]  INFO -- : Dumping json to ./cars/mazda_autozam_az_3_1993_september_gt_a_e_ecpsa_fxl.json
+D, [2014-02-16T02:16:21.000718 #25593] DEBUG -- : Sleeping for 4 seconds
+I, [2014-02-16T02:16:25.000930 #25593]  INFO -- : Trying to get ID 24109
+I, [2014-02-16T02:16:26.139860 #25593]  INFO -- : Got HTML for ID 24109
+I, [2014-02-16T02:16:26.157234 #25593]  INFO -- : It's a 1998 Nissan Primera 1.8Ci S selection
+I, [2014-02-16T02:16:26.157654 #25593]  INFO -- : Dumping json to ./cars/nissan_primera_1998_september_1_8ci_s_selection_gf_qp11.json
+D, [2014-02-16T02:16:26.158025 #25593] DEBUG -- : Sleeping for 10 seconds
+I, [2014-02-16T02:16:36.158236 #25593]  INFO -- : Trying to get ID 9536
+I, [2014-02-16T02:16:37.296378 #25593]  INFO -- : Got HTML for ID 9536
+I, [2014-02-16T02:16:37.314779 #25593]  INFO -- : It's a 1992 Daihatsu Applause 16Zi
+I, [2014-02-16T02:16:37.315191 #25593]  INFO -- : Dumping json to ./cars/daihatsu_applause_1992_july_16zi_e_a111s_gmme.json
+D, [2014-02-16T02:16:37.315591 #25593] DEBUG -- : Sleeping for 5 seconds
+I, [2014-02-16T02:16:42.315857 #25593]  INFO -- : Trying to get ID 1847
+I, [2014-02-16T02:16:43.764055 #25593]  INFO -- : Got HTML for ID 1847
+I, [2014-02-16T02:16:43.783332 #25593]  INFO -- : It's a 1990 Toyota Carina SG
+I, [2014-02-16T02:16:43.783749 #25593]  INFO -- : Dumping json to ./cars/toyota_carina_1990_may_sg_e_at175_cepnk.json
+D, [2014-02-16T02:16:43.784263 #25593] DEBUG -- : Sleeping for 10 seconds
+I, [2014-02-16T02:16:53.784479 #25593]  INFO -- : Trying to get ID 20278
+I, [2014-02-16T02:16:56.397729 #25593]  INFO -- : Got HTML for ID 20278
+I, [2014-02-16T02:16:56.417789 #25593]  INFO -- : It's a 1990 Nissan Caravan Limousine
+I, [2014-02-16T02:16:56.418223 #25593]  INFO -- : Dumping json to ./cars/nissan_caravan_1990_october_limousine_q_arme24.json
+D, [2014-02-16T02:16:56.418623 #25593] DEBUG -- : Sleeping for 4 seconds
+I, [2014-02-16T02:17:00.418847 #25593]  INFO -- : Trying to get ID 9166
+I, [2014-02-16T02:17:01.572682 #25593]  INFO -- : Got HTML for ID 9166
+I, [2014-02-16T02:17:01.591359 #25593]  INFO -- : It's a 1999 Toyota Vitz U European Sport edition
+I, [2014-02-16T02:17:01.591759 #25593]  INFO -- : Dumping json to ./cars/toyota_vitz_1999_october_u_european_sport_edition_gh_ncp10_ahpek_z.json
+D, [2014-02-16T02:17:01.592150 #25593] DEBUG -- : Sleeping for 4 seconds
+I, [2014-02-16T02:17:05.592389 #25593]  INFO -- : Trying to get ID 29605
+I, [2014-02-16T02:17:08.673489 #25593]  INFO -- : Got HTML for ID 29605
+I, [2014-02-16T02:17:08.691214 #25593]  INFO -- : It's a 1979 Mitsubishi Lancer Íå óêàçàíà
+I, [2014-02-16T02:17:08.691987 #25593]  INFO -- : Dumping json to ./cars/mitsubishi_lancer_1979.json
+D, [2014-02-16T02:17:08.692664 #25593] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-16T02:17:14.692983 #25593]  INFO -- : Trying to get ID 10542
+I, [2014-02-16T02:17:15.894921 #25593]  INFO -- : Got HTML for ID 10542
+I, [2014-02-16T02:17:15.911010 #25593]  INFO -- : It's a 1996 Daihatsu Mira CG limited
+I, [2014-02-16T02:17:15.911474 #25593]  INFO -- : Dumping json to ./cars/daihatsu_mira_1996_may_cg_limited_e_l510s_gmdf.json
+D, [2014-02-16T02:17:15.911934 #25593] DEBUG -- : Sleeping for 10 seconds
+I, [2014-02-16T02:17:25.912122 #25593]  INFO -- : Trying to get ID 14489
+I, [2014-02-16T02:17:26.928459 #25593]  INFO -- : Got HTML for ID 14489
+I, [2014-02-16T02:17:26.946628 #25593]  INFO -- : It's a 2001 Mazda Carol MeLady extra
+I, [2014-02-16T02:17:26.947025 #25593]  INFO -- : Dumping json to ./cars/mazda_carol_2001_may_melady_extra_ta_hb23s_a7l.json
+D, [2014-02-16T02:17:26.947337 #25593] DEBUG -- : Sleeping for 7 seconds
+I, [2014-02-16T02:17:33.947531 #25593]  INFO -- : Trying to get ID 12794
+I, [2014-02-16T02:17:35.082584 #25593]  INFO -- : Got HTML for ID 12794
+I, [2014-02-16T02:17:35.103242 #25593]  INFO -- : It's a 1993 Honda Today Mi (Associe)
+I, [2014-02-16T02:17:35.103904 #25593]  INFO -- : Dumping json to ./cars/honda_today_1993_may_mi_associe_e_ja4.json
+D, [2014-02-16T02:17:35.104475 #25593] DEBUG -- : Sleeping for 9 seconds
+I, [2014-02-16T02:17:44.104732 #25593]  INFO -- : Trying to get ID 23511
+I, [2014-02-16T02:17:45.270296 #25593]  INFO -- : Got HTML for ID 23511
+I, [2014-02-16T02:17:45.291230 #25593]  INFO -- : It's a 1990 Nissan Pulsar K1
+I, [2014-02-16T02:17:45.291677 #25593]  INFO -- : Dumping json to ./cars/nissan_pulsar_1990_august_k1_e_fn14.json
+D, [2014-02-16T02:17:45.292059 #25593] DEBUG -- : Sleeping for 5 seconds
+I, [2014-02-16T02:17:50.292278 #25593]  INFO -- : Trying to get ID 3422
+I, [2014-02-16T02:17:51.447299 #25593]  INFO -- : Got HTML for ID 3422
+I, [2014-02-16T02:17:51.464335 #25593]  INFO -- : It's a 1990 Toyota Crown Deluxe
+I, [2014-02-16T02:17:51.464764 #25593]  INFO -- : Dumping json to ./cars/toyota_crown_1990_august_deluxe_q_ls130_aemds.json
+D, [2014-02-16T02:17:51.465076 #25593] DEBUG -- : Sleeping for 7 seconds
+I, [2014-02-16T02:17:58.465394 #25593]  INFO -- : Trying to get ID 26188
+I, [2014-02-16T02:18:03.662469 #25593]  INFO -- : Got HTML for ID 26188
+I, [2014-02-16T02:18:03.679980 #25593]  INFO -- : It's a 1990 Suzuki Alto Perky S
+I, [2014-02-16T02:18:03.680501 #25593]  INFO -- : Dumping json to ./cars/suzuki_alto_1990_march_perky_s_e_cn21s_aacl_sa.json
+D, [2014-02-16T02:18:03.680946 #25593] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-16T02:18:09.681186 #25593]  INFO -- : Trying to get ID 12655
+I, [2014-02-16T02:18:10.838593 #25593]  INFO -- : Got HTML for ID 12655
+I, [2014-02-16T02:18:10.857239 #25593]  INFO -- : It's a 1993 Honda Street Xi
+I, [2014-02-16T02:18:10.857611 #25593]  INFO -- : Dumping json to ./cars/honda_street_1993_october_xi_v_hh4.json
+D, [2014-02-16T02:18:10.858087 #25593] DEBUG -- : Sleeping for 4 seconds
+I, [2014-02-16T02:18:14.858296 #25593]  INFO -- : Trying to get ID 5715
+I, [2014-02-16T02:18:15.999448 #25593]  INFO -- : Got HTML for ID 5715
+I, [2014-02-16T02:18:16.017096 #25593]  INFO -- : It's a 1999 Toyota Celica SS-I
+I, [2014-02-16T02:18:16.017589 #25593]  INFO -- : Dumping json to ./cars/toyota_celica_1999_september_ss_i_gh_zzt230_blpgh.json
+D, [2014-02-16T02:18:16.018050 #25593] DEBUG -- : Sleeping for 5 seconds
+I, [2014-02-16T02:18:21.018239 #25593]  INFO -- : Trying to get ID 6617
+I, [2014-02-16T02:18:22.156785 #25593]  INFO -- : Got HTML for ID 6617
+I, [2014-02-16T02:18:22.173215 #25593]  INFO -- : It's a 1996 Toyota Chaser Tourer V
+I, [2014-02-16T02:18:22.173622 #25593]  INFO -- : Dumping json to ./cars/toyota_chaser_1996_september_tourer_v_e_jzx100_btpvz.json
+D, [2014-02-16T02:18:22.173984 #25593] DEBUG -- : Sleeping for 9 seconds
+I, [2014-02-16T02:18:31.174162 #25593]  INFO -- : Trying to get ID 23324
+I, [2014-02-16T02:18:32.623407 #25593]  INFO -- : Got HTML for ID 23324
+I, [2014-02-16T02:18:32.639493 #25593]  INFO -- : It's a 1994 Nissan Pulsar V1
+I, [2014-02-16T02:18:32.639912 #25593]  INFO -- : Dumping json to ./cars/nissan_pulsar_1994_may_v1_e_n14.json
+D, [2014-02-16T02:18:32.640283 #25593] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-16T02:18:38.640528 #25593]  INFO -- : Trying to get ID 14240
+I, [2014-02-16T02:18:39.966886 #25593]  INFO -- : Got HTML for ID 14240
+I, [2014-02-16T02:18:39.988189 #25593]  INFO -- : It's a 1991 Mazda Autozam Scrum Stand off
+I, [2014-02-16T02:18:39.988743 #25593]  INFO -- : Dumping json to ./cars/mazda_autozam_scrum_1991_october_stand_off_v_dm51v_ok7.json
+D, [2014-02-16T02:18:39.989098 #25593] DEBUG -- : Sleeping for 5 seconds
+I, [2014-02-16T02:18:44.989306 #25593]  INFO -- : Trying to get ID 12722
+I, [2014-02-16T02:18:46.005028 #25593]  INFO -- : Got HTML for ID 12722
+I, [2014-02-16T02:18:46.024733 #25593]  INFO -- : It's a 1995 Honda Saber 25S
+I, [2014-02-16T02:18:46.025151 #25593]  INFO -- : Dumping json to ./cars/honda_saber_1995_february_25s_e_ua2.json
+D, [2014-02-16T02:18:46.025502 #25593] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-16T02:18:52.025711 #25593]  INFO -- : Trying to get ID 16787
+I, [2014-02-16T02:18:53.390042 #25593]  INFO -- : Got HTML for ID 16787
+I, [2014-02-16T02:18:53.407675 #25593]  INFO -- : It's a 1991 Mitsubishi Diamante 25E
+I, [2014-02-16T02:18:53.408079 #25593]  INFO -- : Dumping json to ./cars/mitsubishi_diamante_1991_october_25e_e_f13a_tnhm.json
+D, [2014-02-16T02:18:53.408443 #25593] DEBUG -- : Sleeping for 6 seconds
+I, [2014-02-16T02:18:59.408622 #25593]  INFO -- : Trying to get ID 3929
+I, [2014-02-16T02:19:00.580249 #25593]  INFO -- : Got HTML for ID 3929
+I, [2014-02-16T02:19:00.596785 #25593]  INFO -- : It's a 1996 Toyota Corsa AX
+I, [2014-02-16T02:19:00.597187 #25593]  INFO -- : Dumping json to ./cars/toyota_corsa_1996_august_ax_e_el51_bekdk.json
+D, [2014-02-16T02:19:00.597549 #25593] DEBUG -- : Sleeping for 10 seconds

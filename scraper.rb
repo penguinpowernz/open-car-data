@@ -54,6 +54,7 @@ class AutoRipper
   def run
     
     index = @start || 0
+    last_url = "http://english.auto.vl.ru/catalog/"
 
     while true do
       index+= 1
@@ -68,13 +69,15 @@ class AutoRipper
 
         @log.info "Trying to get ID #{index}"
         
-        html = open( url(count),
-          "User-Agent" => "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:26.0) Gecko/20100101 Firefox/26.0"
+        html = open( url(index),
+          "User-Agent" => "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:26.0) Gecko/20100101 Firefox/26.0",
+          "Referer" => last_url
         )
 
         @log.warn "HTML was nil" and next if html.nil?
         @log.info "Got HTML for ID #{index}"
 
+        last_url = url(index)
 
         car = process_car(html)
         @log.info "It's a #{car[:year]} #{car[:manufacturer]} #{car[:model]} #{car[:modification]}"

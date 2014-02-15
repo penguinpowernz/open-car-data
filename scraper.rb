@@ -169,7 +169,7 @@ class AutoRipper
   end
 
   def validate(doc)
-    raise OpenURI::HTTPError if doc.css("h3").first.content == "Wrong params" # essentially a 404
+    raise OpenURI::HTTPError, "404 Error", IO.new if doc.css("h3").first.content == "Wrong params" # essentially a 404
   end
 
   def write_to_file(hash)

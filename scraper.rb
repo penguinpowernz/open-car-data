@@ -63,6 +63,7 @@ class AutoRipper
         raise EndOfRange if !@end.nil? and index >= @end
         raise TooManyConsecutiveErrors if consecutive_errors >= 3
         raise RecordExists if cached?(index)
+
         duration = rand(4..10)
         @log.debug "Sleeping for #{duration} seconds"
         sleep duration # act like a human/don't hammer server
@@ -80,6 +81,7 @@ class AutoRipper
         last_url = url(index)
 
         car = process_car(html)
+        car[:auto_vl_ru_id] = index
         @log.info "It's a #{car[:year]} #{car[:manufacturer]} #{car[:model]} #{car[:modification]}"
         write_to_file car
         cache(index)

@@ -13,6 +13,7 @@ class TooManyConsecutiveErrors < StandardError; end
 class EndOfRange < StandardError; end
 class RecordExists < StandardError; end
 class CacheFull < StandardError; end
+class CarNotFound < StandardError; end
 
 class String
 
@@ -96,6 +97,9 @@ class AutoRipper
       rescue OpenURI::HTTPError => e
         @log.error e.message
         @errors << index
+      rescue CarNotFound
+        @log.error "No car found with ID #{index}"
+        @errors << index
       rescue TooManyConsecutiveErrors
         @log.fatal "Too many consecutive errors"
         break
@@ -169,7 +173,7 @@ class AutoRipper
   end
 
   def validate(doc)
-    raise OpenURI::HTTPError "404 Error", IO.new if doc.css("h3").first.content == "Wrong params" # essentially a 404
+    raise CarNotFound if doc.css("h3").first.content == "Wrong params" # essentially a 404
   end
 
   def write_to_file(hash)

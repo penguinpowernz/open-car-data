@@ -26,4 +26,4 @@ class String
 
 end
 
-OpenCarData::AutoRipper.new(DUMP_PATH, ARGV[0], CACHE).run
+OpenCarData::AutoRipper.new(range: ARGV[0]).run

@@ -8,7 +8,7 @@ module OpenCarData
   DUMP_PATH = "./cars"
   LOG_FILE = "./scraper.log"
   CACHE_PATH="./tmp/cache"
-  ERROR_CACHE="./tmp/error_cache"
+  ERROR_CACHE_PATH="./tmp/error_cache"
 
   class TooManyConsecutiveErrors < StandardError; end
   class EndOfRange < StandardError; end

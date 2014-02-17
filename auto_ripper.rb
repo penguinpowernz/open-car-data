@@ -1,3 +1,4 @@
+require 'fileutils'
 require 'json'
 require 'open-uri'
 require 'nokogiri'
@@ -22,10 +23,10 @@ module OpenCarData
     MAX_CACHE = 30098
   
     def initialize(opts={})
-      @dump_path =  opts[:dump_path]        || OpenCarData::DUMP_PATH
-      @cache_path = opts[:cache_path]       || OpenCarData::CACHE_PATH
-      @cache_path = opts[:error_cache_path] || OpenCarData::ERROR_CACHE_PATH
-      @range =      opts[:range]            || 0..MAX_CACHE
+      @dump_path =        opts[:dump_path]        || OpenCarData::DUMP_PATH
+      @cache_path =       opts[:cache_path]       || OpenCarData::CACHE_PATH
+      @error_cache_path = opts[:error_cache_path] || OpenCarData::ERROR_CACHE_PATH
+      @range =            opts[:range]            || 0..MAX_CACHE
       @errors = []
   
       init_cache
@@ -49,8 +50,8 @@ module OpenCarData
     end
     
     def init_cache
-      File.touch(@cache_path)
-      File.touch(@error_cache_path)
+      FileUtils.touch(@cache_path)
+      FileUtils.touch(@error_cache_path)
       
       @cache = File.read(@cache_path).split("\n")
       @error_cache = File.read(@error_cache_path).split("\n")

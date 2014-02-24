@@ -70,7 +70,7 @@ module OpenCarData
   
         begin
           raise OpenCarData::EndOfRange if !@end.nil? and index >= @end
-          raise OpenCarData::TooManyConsecutiveErrors if consecutive_errors >= 3
+#          raise OpenCarData::TooManyConsecutiveErrors if consecutive_errors >= 3
           raise OpenCarData::RecordExists if cached?(index)
           raise OpenCarData::CacheFull if @cache.size >= MAX_CACHE
   

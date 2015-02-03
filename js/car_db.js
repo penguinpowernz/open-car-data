@@ -7,7 +7,7 @@ var CarDB = (function() {
     slugs.forEach(function(slug) {
       if ( db[slug] == null ) {
         $.ajax({
-          url: "/cars/"+slug+".json",
+          url: "cars/"+slug+".json",
           async: false,
           success: function(json) {
             cars.push(json);

@@ -19,7 +19,7 @@ var EngineDB = (function() {
   };
 
   var load_db = function(callback) {
-    $.getJSON("/data/engines.json", function(json) {
+    $.getJSON("data/engines.json", function(json) {
       db = json;
       localStorage.setItem(ls_key, JSON.stringify(json));
       callback();

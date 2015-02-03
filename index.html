@@ -263,7 +263,7 @@
           $(this).val("");
         });
 
-        $.getJSON("/data/models.json", function(json) {
+        $.getJSON("data/models.json", function(json) {
           models = json;
 
           $("#autocomplete_models").autocomplete({
